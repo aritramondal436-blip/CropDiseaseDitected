@@ -1,0 +1,1347 @@
+.gitignore:1: trailing whitespace.
+[32m+[m[32m# Miscellaneous[m[41m[m
+.gitignore:2: trailing whitespace.
+[32m+[m[32m*.class[m[41m[m
+.gitignore:3: trailing whitespace.
+[32m+[m[32m*.log[m[41m[m
+.gitignore:4: trailing whitespace.
+[32m+[m[32m*.pyc[m[41m[m
+.gitignore:5: trailing whitespace.
+[32m+[m[32m*.swp[m[41m[m
+.gitignore:6: trailing whitespace.
+[32m+[m[32m.DS_Store[m[41m[m
+.gitignore:7: trailing whitespace.
+[32m+[m[32m.atom/[m[41m[m
+.gitignore:8: trailing whitespace.
+[32m+[m[32m.build/[m[41m[m
+.gitignore:9: trailing whitespace.
+[32m+[m[32m.buildlog/[m[41m[m
+.gitignore:10: trailing whitespace.
+[32m+[m[32m.history[m[41m[m
+.gitignore:11: trailing whitespace.
+[32m+[m[32m.svn/[m[41m[m
+.gitignore:12: trailing whitespace.
+[32m+[m[32m.swiftpm/[m[41m[m
+.gitignore:13: trailing whitespace.
+[32m+[m[32mmigrate_working_dir/[m[41m[m
+.gitignore:14: trailing whitespace.
+[32m+[m[41m[m
+.gitignore:15: trailing whitespace.
+[32m+[m[32m# IntelliJ related[m[41m[m
+.gitignore:16: trailing whitespace.
+[32m+[m[32m*.iml[m[41m[m
+.gitignore:17: trailing whitespace.
+[32m+[m[32m*.ipr[m[41m[m
+.gitignore:18: trailing whitespace.
+[32m+[m[32m*.iws[m[41m[m
+.gitignore:19: trailing whitespace.
+[32m+[m[32m.idea/[m[41m[m
+.gitignore:20: trailing whitespace.
+[32m+[m[41m[m
+.gitignore:21: trailing whitespace.
+[32m+[m[32m# The .vscode folder contains launch configuration and tasks you configure in[m[41m[m
+.gitignore:22: trailing whitespace.
+[32m+[m[32m# VS Code which you may wish to be included in version control, so this line[m[41m[m
+.gitignore:23: trailing whitespace.
+[32m+[m[32m# is commented out by default.[m[41m[m
+.gitignore:24: trailing whitespace.
+[32m+[m[32m#.vscode/[m[41m[m
+.gitignore:25: trailing whitespace.
+[32m+[m[41m[m
+.gitignore:26: trailing whitespace.
+[32m+[m[32m# Flutter/Dart/Pub related[m[41m[m
+.gitignore:27: trailing whitespace.
+[32m+[m[32m**/doc/api/[m[41m[m
+.gitignore:28: trailing whitespace.
+[32m+[m[32m**/ios/Flutter/.last_build_id[m[41m[m
+.gitignore:29: trailing whitespace.
+[32m+[m[32m.dart_tool/[m[41m[m
+.gitignore:30: trailing whitespace.
+[32m+[m[32m.flutter-plugins-dependencies[m[41m[m
+.gitignore:31: trailing whitespace.
+[32m+[m[32m.pub-cache/[m[41m[m
+.gitignore:32: trailing whitespace.
+[32m+[m[32m.pub/[m[41m[m
+.gitignore:33: trailing whitespace.
+[32m+[m[32m/build/[m[41m[m
+.gitignore:34: trailing whitespace.
+[32m+[m[32m/coverage/[m[41m[m
+.gitignore:35: trailing whitespace.
+[32m+[m[41m[m
+.gitignore:36: trailing whitespace.
+[32m+[m[32m# Symbolication related[m[41m[m
+.gitignore:37: trailing whitespace.
+[32m+[m[32mapp.*.symbols[m[41m[m
+.gitignore:38: trailing whitespace.
+[32m+[m[41m[m
+.gitignore:39: trailing whitespace.
+[32m+[m[32m# Obfuscation related[m[41m[m
+.gitignore:40: trailing whitespace.
+[32m+[m[32mapp.*.map.json[m[41m[m
+.gitignore:41: trailing whitespace.
+[32m+[m[41m[m
+.gitignore:42: trailing whitespace.
+[32m+[m[32m# Android Studio will place build artifacts here[m[41m[m
+.gitignore:43: trailing whitespace.
+[32m+[m[32m/android/app/debug[m[41m[m
+.gitignore:44: trailing whitespace.
+[32m+[m[32m/android/app/profile[m[41m[m
+.gitignore:45: trailing whitespace.
+[32m+[m[32m/android/app/release[m[41m[m
+.gitignore:46: trailing whitespace.
+[32m+[m[41m[m
+.gitignore:47: trailing whitespace.
+[32m+[m[32m# Widget Preview related[m[41m[m
+.gitignore:48: trailing whitespace.
+[32m+[m[32m.widget_preview/[m[41m[m
+.gitignore:49: trailing whitespace.
+[32m+[m[41m[m
+.gitignore:50: trailing whitespace.
+[32m+[m[32m# Local secrets[m[41m[m
+.gitignore:51: trailing whitespace.
+[32m+[m[32m.env[m[41m[m
+.gitignore:52: trailing whitespace.
+[32m+[m[32m.env.*[m[41m[m
+.gitignore:53: trailing whitespace.
+[32m+[m[32m*.env.json[m[41m[m
+.gitignore:54: trailing whitespace.
+[32m+[m[32mdart_defines.json[m[41m[m
+README.md:1: trailing whitespace.
+[32m+[m[32m# emergency_app[m[41m[m
+README.md:2: trailing whitespace.
+[32m+[m[41m[m
+README.md:3: trailing whitespace.
+[32m+[m[32mA new Flutter project.[m[41m[m
+README.md:4: trailing whitespace.
+[32m+[m[41m[m
+README.md:5: trailing whitespace.
+[32m+[m[32m## Getting Started[m[41m[m
+README.md:6: trailing whitespace.
+[32m+[m[41m[m
+README.md:7: trailing whitespace.
+[32m+[m[32mThis project is a starting point for a Flutter application.[m[41m[m
+README.md:8: trailing whitespace.
+[32m+[m[41m[m
+README.md:9: trailing whitespace.
+[32m+[m[32mA few resources to get you started if this is your first Flutter project:[m[41m[m
+README.md:10: trailing whitespace.
+[32m+[m[41m[m
+README.md:11: trailing whitespace.
+[32m+[m[32m- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)[m[41m[m
+README.md:12: trailing whitespace.
+[32m+[m[32m- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)[m[41m[m
+README.md:13: trailing whitespace.
+[32m+[m[32m- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)[m[41m[m
+README.md:14: trailing whitespace.
+[32m+[m[41m[m
+README.md:15: trailing whitespace.
+[32m+[m[32mFor help getting started with Flutter development, view the[m[41m[m
+README.md:16: trailing whitespace.
+[32m+[m[32m[online documentation](https://docs.flutter.dev/), which offers tutorials,[m[41m[m
+README.md:17: trailing whitespace.
+[32m+[m[32msamples, guidance on mobile development, and a full API reference.[m[41m[m
+README.md:18: trailing whitespace.
+[32m+[m[41m[m
+README.md:19: trailing whitespace.
+[32m+[m[32m## Weather API key[m[41m[m
+README.md:20: trailing whitespace.
+[32m+[m[41m[m
+README.md:21: trailing whitespace.
+[32m+[m[32mThe home screen shows live weather for the device's current position, fetched[m[41m[m
+README.md:22: trailing whitespace.
+[32m+[m[32mfrom [WeatherAPI.com](https://www.weatherapi.com). The key is read at compile[m[41m[m
+README.md:23: trailing whitespace.
+[32m+[m[32mtime in `lib/weather_service.dart` and is never committed to the repository.[m[41m[m
+README.md:24: trailing whitespace.
+[32m+[m[41m[m
+README.md:25: trailing whitespace.
+[32m+[m[32mBecause it uses `String.fromEnvironment`, the value is baked into the compiled[m[41m[m
+README.md:26: trailing whitespace.
+[32m+[m[32mbundle when you build. Adding it later, or re-running without it, produces a[m[41m[m
+README.md:27: trailing whitespace.
+[32m+[m[32mkeyless build — a hot reload will not pick it up.[m[41m[m
+README.md:28: trailing whitespace.
+[32m+[m[41m[m
+README.md:29: trailing whitespace.
+[32m+[m[32m### 1. Get a key[m[41m[m
+README.md:30: trailing whitespace.
+[32m+[m[41m[m
+README.md:31: trailing whitespace.
+[32m+[m[32mSign up on weatherapi.com and copy the key from the account dashboard.[m[41m[m
+README.md:32: trailing whitespace.
+[32m+[m[41m[m
+README.md:33: trailing whitespace.
+[32m+[m[32m### 2. Supply it[m[41m[m
+README.md:34: trailing whitespace.
+[32m+[m[41m[m
+README.md:35: trailing whitespace.
+[32m+[m[32mCommand line, for both dev and release builds:[m[41m[m
+README.md:36: trailing whitespace.
+[32m+[m[41m[m
+README.md:37: trailing whitespace.
+[32m+[m[32m```sh[m[41m[m
+README.md:38: trailing whitespace.
+[32m+[m[32mflutter run -d chrome --dart-define=WEATHER_API_KEY=your_key_here[m[41m[m
+README.md:39: trailing whitespace.
+[32m+[m[32mflutter build web --dart-define=WEATHER_API_KEY=your_key_here[m[41m[m
+README.md:40: trailing whitespace.
+[32m+[m[32m```[m[41m[m
+README.md:41: trailing whitespace.
+[32m+[m[41m[m
+README.md:42: trailing whitespace.
+[32m+[m[32mOr keep the key in a file so it stays out of shell history and CI logs. Copy[m[41m[m
+README.md:43: trailing whitespace.
+[32m+[m[32m`dart_defines.example.json` to `dart_defines.json` (already git-ignored), put[m[41m[m
+README.md:44: trailing whitespace.
+[32m+[m[32myour key in it, then:[m[41m[m
+README.md:45: trailing whitespace.
+[32m+[m[41m[m
+README.md:46: trailing whitespace.
+[32m+[m[32m```sh[m[41m[m
+README.md:47: trailing whitespace.
+[32m+[m[32mflutter run -d chrome --dart-define-from-file=dart_defines.json[m[41m[m
+README.md:48: trailing whitespace.
+[32m+[m[32mflutter build web --dart-define-from-file=dart_defines.json[m[41m[m
+README.md:49: trailing whitespace.
+[32m+[m[32m```[m[41m[m
+README.md:50: trailing whitespace.
+[32m+[m[41m[m
+README.md:51: trailing whitespace.
+[32m+[m[32mThe path is resolved against the working directory, so run both commands from[m[41m[m
+README.md:52: trailing whitespace.
+[32m+[m[32mthe project root. `.env` files work here too, and an empty value is treated as[m[41m[m
+README.md:53: trailing whitespace.
+[32m+[m[32m"not set" rather than sent to the API.[m[41m[m
+README.md:54: trailing whitespace.
+[32m+[m[41m[m
+README.md:55: trailing whitespace.
+[32m+[m[32mAndroid Studio instead: the **main.dart** run configuration already passes[m[41m[m
+README.md:56: trailing whitespace.
+[32m+[m[32m`--dart-define-from-file=dart_defines.json` in **Additional arguments**, so[m[41m[m
+README.md:57: trailing whitespace.
+[32m+[m[32myou only need to put your key in `dart_defines.json` and press Run. That run[m[41m[m
+README.md:58: trailing whitespace.
+[32m+[m[32mconfiguration lives under `.idea/`, which is git-ignored, so the flag itself[m[41m[m
+README.md:59: trailing whitespace.
+[32m+[m[32mmust be added once per machine (open **Run > Edit Configurations > main.dart**[m[41m[m
+README.md:60: trailing whitespace.
+[32m+[m[32mand set **Additional arguments** to `--dart-define-from-file=dart_defines.json`).[m[41m[m
+README.md:61: trailing whitespace.
+[32m+[m[32mAn empty or missing `WEATHER_API_KEY` value is detected and reported as "not[m[41m[m
+README.md:62: trailing whitespace.
+[32m+[m[32mset" rather than sent to the API.[m[41m[m
+README.md:63: trailing whitespace.
+[32m+[m[41m[m
+README.md:64: trailing whitespace.
+[32m+[m[32mWithout a key the weather card shows a retry prompt explaining the missing[m[41m[m
+README.md:65: trailing whitespace.
+[32m+[m[32mdefine, and the reason is logged to the debug console; the rest of the app is[m[41m[m
+README.md:66: trailing whitespace.
+[32m+[m[32munaffected.[m[41m[m
+README.md:67: trailing whitespace.
+[32m+[m[41m[m
+README.md:68: trailing whitespace.
+[32m+[m[32m### Web notes[m[41m[m
+README.md:69: trailing whitespace.
+[32m+[m[41m[m
+README.md:70: trailing whitespace.
+[32m+[m[32mBrowser geolocation only works in a secure context, so serve the build over[m[41m[m
+README.md:71: trailing whitespace.
+[32m+[m[32m`https`, or on `localhost` during development. `flutter run -d chrome` serves[m[41m[m
+README.md:72: trailing whitespace.
+[32m+[m[32mon `localhost` and works out of the box, but serving `build/web` from a LAN IP[m[41m[m
+README.md:73: trailing whitespace.
+[32m+[m[32mover plain `http` gets the location blocked by the browser — which surfaces as[m[41m[m
+README.md:74: trailing whitespace.
+[32m+[m[32ma location error, not a key error.[m[41m[m
+README.md:75: trailing whitespace.
+[32m+[m[41m[m
+README.md:76: trailing whitespace.
+[32m+[m[32m`String.fromEnvironment` inlines the key into the compiled output, which means[m[41m[m
+README.md:77: trailing whitespace.
+[32m+[m[32mit can be extracted from the JavaScript bundle. Restrict the key by allowed[m[41m[m
+README.md:78: trailing whitespace.
+[32m+[m[32mdomain in the WeatherAPI dashboard, and for a public deployment call WeatherAPI[m[41m[m
+README.md:79: trailing whitespace.
+[32m+[m[32mthrough your own backend instead of shipping the key to clients. Note also that[m[41m[m
+README.md:80: trailing whitespace.
+[32m+[m[32mrelease builds need the flag added to the build command, otherwise they[m[41m[m
+README.md:81: trailing whitespace.
+[32m+[m[32msilently produce a keyless build.[m[41m[m
+README.md:82: trailing whitespace.
+[32m+[m[41m[m
+README.md:82: new blank line at EOF.
+analysis_options.yaml:1: trailing whitespace.
+[32m+[m[32m# This file configures the analyzer, which statically analyzes Dart code to[m[41m[m
+analysis_options.yaml:2: trailing whitespace.
+[32m+[m[32m# check for errors, warnings, and lints.[m[41m[m
+analysis_options.yaml:3: trailing whitespace.
+[32m+[m[32m#[m[41m[m
+analysis_options.yaml:4: trailing whitespace.
+[32m+[m[32m# The issues identified by the analyzer are surfaced in the UI of Dart-enabled[m[41m[m
+analysis_options.yaml:5: trailing whitespace.
+[32m+[m[32m# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be[m[41m[m
+analysis_options.yaml:6: trailing whitespace.
+[32m+[m[32m# invoked from the command line by running `flutter analyze`.[m[41m[m
+analysis_options.yaml:7: trailing whitespace.
+[32m+[m[41m[m
+analysis_options.yaml:8: trailing whitespace.
+[32m+[m[32m# The following line activates a set of recommended lints for Flutter apps,[m[41m[m
+analysis_options.yaml:9: trailing whitespace.
+[32m+[m[32m# packages, and plugins designed to encourage good coding practices.[m[41m[m
+analysis_options.yaml:10: trailing whitespace.
+[32m+[m[32minclude: package:flutter_lints/flutter.yaml[m[41m[m
+analysis_options.yaml:11: trailing whitespace.
+[32m+[m[41m[m
+analysis_options.yaml:12: trailing whitespace.
+[32m+[m[32manalyzer:[m[41m[m
+analysis_options.yaml:13: trailing whitespace.
+[32m+[m[32m  exclude:[m[41m[m
+analysis_options.yaml:14: trailing whitespace.
+[32m+[m[32m    - build/**[m[41m[m
+analysis_options.yaml:15: trailing whitespace.
+[32m+[m[32m    - android/**[m[41m[m
+analysis_options.yaml:16: trailing whitespace.
+[32m+[m[32m    - ios/**[m[41m[m
+analysis_options.yaml:17: trailing whitespace.
+[32m+[m[32m    - web/**[m[41m[m
+analysis_options.yaml:18: trailing whitespace.
+[32m+[m[32m    - windows/**[m[41m[m
+analysis_options.yaml:19: trailing whitespace.
+[32m+[m[32m    - macos/**[m[41m[m
+analysis_options.yaml:20: trailing whitespace.
+[32m+[m[32m    - linux/**[m[41m[m
+analysis_options.yaml:21: trailing whitespace.
+[32m+[m[41m[m
+analysis_options.yaml:22: trailing whitespace.
+[32m+[m[32mlinter:[m[41m[m
+analysis_options.yaml:23: trailing whitespace.
+[32m+[m[32m  # The lint rules applied to this project can be customized in the[m[41m[m
+analysis_options.yaml:24: trailing whitespace.
+[32m+[m[32m  # section below to disable rules from the `package:flutter_lints/flutter.yaml`[m[41m[m
+analysis_options.yaml:25: trailing whitespace.
+[32m+[m[32m  # included above or to enable additional rules. A list of all available lints[m[41m[m
+analysis_options.yaml:26: trailing whitespace.
+[32m+[m[32m  # and their documentation is published at https://dart.dev/lints.[m[41m[m
+analysis_options.yaml:27: trailing whitespace.
+[32m+[m[32m  #[m[41m[m
+analysis_options.yaml:28: trailing whitespace.
+[32m+[m[32m  # Instead of disabling a lint rule for the entire project in the[m[41m[m
+analysis_options.yaml:29: trailing whitespace.
+[32m+[m[32m  # section below, it can also be suppressed for a single line of code[m[41m[m
+analysis_options.yaml:30: trailing whitespace.
+[32m+[m[32m  # or a specific dart file by using the `// ignore: name_of_lint` and[m[41m[m
+analysis_options.yaml:31: trailing whitespace.
+[32m+[m[32m  # `// ignore_for_file: name_of_lint` syntax on the line or in the file[m[41m[m
+analysis_options.yaml:32: trailing whitespace.
+[32m+[m[32m  # producing the lint.[m[41m[m
+analysis_options.yaml:33: trailing whitespace.
+[32m+[m[32m  rules:[m[41m[m
+analysis_options.yaml:34: trailing whitespace.
+[32m+[m[32m    # avoid_print: false  # Uncomment to disable the `avoid_print` rule[m[41m[m
+analysis_options.yaml:35: trailing whitespace.
+[32m+[m[32m    # prefer_single_quotes: true  # Uncomment to enable the `prefer_single_quotes` rule[m[41m[m
+analysis_options.yaml:36: trailing whitespace.
+[32m+[m[41m[m
+analysis_options.yaml:37: trailing whitespace.
+[32m+[m[32m# Additional information about this file can be found at[m[41m[m
+analysis_options.yaml:38: trailing whitespace.
+[32m+[m[32m# https://dart.dev/guides/language/analysis-options[m[41m[m
+android/.gitignore:1: trailing whitespace.
+[32m+[m[32mgradle-wrapper.jar[m[41m[m
+android/.gitignore:2: trailing whitespace.
+[32m+[m[32m/.gradle[m[41m[m
+android/.gitignore:3: trailing whitespace.
+[32m+[m[32m/captures/[m[41m[m
+android/.gitignore:4: trailing whitespace.
+[32m+[m[32m/gradlew[m[41m[m
+android/.gitignore:5: trailing whitespace.
+[32m+[m[32m/gradlew.bat[m[41m[m
+android/.gitignore:6: trailing whitespace.
+[32m+[m[32m/local.properties[m[41m[m
+android/.gitignore:7: trailing whitespace.
+[32m+[m[32mGeneratedPluginRegistrant.java[m[41m[m
+android/.gitignore:8: trailing whitespace.
+[32m+[m[32m.cxx/[m[41m[m
+android/.gitignore:9: trailing whitespace.
+[32m+[m[41m[m
+android/.gitignore:10: trailing whitespace.
+[32m+[m[32m# Remember to never publicly share your keystore.[m[41m[m
+android/.gitignore:11: trailing whitespace.
+[32m+[m[32m# See https://flutter.dev/to/reference-keystore[m[41m[m
+android/.gitignore:12: trailing whitespace.
+[32m+[m[32mkey.properties[m[41m[m
+android/.gitignore:13: trailing whitespace.
+[32m+[m[32m**/*.keystore[m[41m[m
+android/.gitignore:14: trailing whitespace.
+[32m+[m[32m**/*.jks[m[41m[m
+android/app/build.gradle.kts:1: trailing whitespace.
+[32m+[m[32mplugins {[m[41m[m
+android/app/build.gradle.kts:2: trailing whitespace.
+[32m+[m[32m    id("com.android.application")[m[41m[m
+android/app/build.gradle.kts:3: trailing whitespace.
+[32m+[m[32m    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.[m[41m[m
+android/app/build.gradle.kts:4: trailing whitespace.
+[32m+[m[32m    id("dev.flutter.flutter-gradle-plugin")[m[41m[m
+android/app/build.gradle.kts:5: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+android/app/build.gradle.kts:6: trailing whitespace.
+[32m+[m[41m[m
+android/app/build.gradle.kts:7: trailing whitespace.
+[32m+[m[32mandroid {[m[41m[m
+android/app/build.gradle.kts:8: trailing whitespace.
+[32m+[m[32m    namespace = "com.cybernex.emergency_app"[m[41m[m
+android/app/build.gradle.kts:9: trailing whitespace.
+[32m+[m[32m    compileSdk = flutter.compileSdkVersion[m[41m[m
+android/app/build.gradle.kts:10: trailing whitespace.
+[32m+[m[32m    ndkVersion = flutter.ndkVersion[m[41m[m
+android/app/build.gradle.kts:11: trailing whitespace.
+[32m+[m[41m[m
+android/app/build.gradle.kts:12: trailing whitespace.
+[32m+[m[32m    compileOptions {[m[41m[m
+android/app/build.gradle.kts:13: trailing whitespace.
+[32m+[m[32m        sourceCompatibility = JavaVersion.VERSION_17[m[41m[m
+android/app/build.gradle.kts:14: trailing whitespace.
+[32m+[m[32m        targetCompatibility = JavaVersion.VERSION_17[m[41m[m
+android/app/build.gradle.kts:15: trailing whitespace.
+[32m+[m[32m    }[m[41m[m
+android/app/build.gradle.kts:16: trailing whitespace.
+[32m+[m[41m[m
+android/app/build.gradle.kts:17: trailing whitespace.
+[32m+[m[32m    defaultConfig {[m[41m[m
+android/app/build.gradle.kts:18: trailing whitespace.
+[32m+[m[32m        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).[m[41m[m
+android/app/build.gradle.kts:19: trailing whitespace.
+[32m+[m[32m        applicationId = "com.cybernex.emergency_app"[m[41m[m
+android/app/build.gradle.kts:20: trailing whitespace.
+[32m+[m[32m        // You can update the following values to match your application needs.[m[41m[m
+android/app/build.gradle.kts:21: trailing whitespace.
+[32m+[m[32m        // For more information, see: https://flutter.dev/to/review-gradle-config.[m[41m[m
+android/app/build.gradle.kts:22: trailing whitespace.
+[32m+[m[32m        minSdk = flutter.minSdkVersion[m[41m[m
+android/app/build.gradle.kts:23: trailing whitespace.
+[32m+[m[32m        targetSdk = flutter.targetSdkVersion[m[41m[m
+android/app/build.gradle.kts:24: trailing whitespace.
+[32m+[m[32m        // Uses the version code from pubspec.yaml. When using split APKs, 1000 * ABI_VERSION[m[41m[m
+android/app/build.gradle.kts:25: trailing whitespace.
+[32m+[m[32m        // is added automatically by Flutter. (https://developer.android.com/studio/build/configure-apk-splits#configure-APK-versions)[m[41m[m
+android/app/build.gradle.kts:26: trailing whitespace.
+[32m+[m[32m        // You can force using the value of versionCode by specifying the `-P force-version-code-ignoring-abi=true`[m[41m[m
+android/app/build.gradle.kts:27: trailing whitespace.
+[32m+[m[32m        // flag during build.[m[41m[m
+android/app/build.gradle.kts:28: trailing whitespace.
+[32m+[m[32m        versionCode = flutter.versionCode[m[41m[m
+android/app/build.gradle.kts:29: trailing whitespace.
+[32m+[m[32m        versionName = flutter.versionName[m[41m[m
+android/app/build.gradle.kts:30: trailing whitespace.
+[32m+[m[32m    }[m[41m[m
+android/app/build.gradle.kts:31: trailing whitespace.
+[32m+[m[41m[m
+android/app/build.gradle.kts:32: trailing whitespace.
+[32m+[m[32m    buildTypes {[m[41m[m
+android/app/build.gradle.kts:33: trailing whitespace.
+[32m+[m[32m        release {[m[41m[m
+android/app/build.gradle.kts:34: trailing whitespace.
+[32m+[m[32m            // TODO: Add your own signing config for the release build.[m[41m[m
+android/app/build.gradle.kts:35: trailing whitespace.
+[32m+[m[32m            // Signing with the debug keys for now, so `flutter run --release` works.[m[41m[m
+android/app/build.gradle.kts:36: trailing whitespace.
+[32m+[m[32m            signingConfig = signingConfigs.getByName("debug")[m[41m[m
+android/app/build.gradle.kts:37: trailing whitespace.
+[32m+[m[32m        }[m[41m[m
+android/app/build.gradle.kts:38: trailing whitespace.
+[32m+[m[32m    }[m[41m[m
+android/app/build.gradle.kts:39: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+android/app/build.gradle.kts:40: trailing whitespace.
+[32m+[m[41m[m
+android/app/build.gradle.kts:41: trailing whitespace.
+[32m+[m[32mkotlin {[m[41m[m
+android/app/build.gradle.kts:42: trailing whitespace.
+[32m+[m[32m    compilerOptions {[m[41m[m
+android/app/build.gradle.kts:43: trailing whitespace.
+[32m+[m[32m        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17[m[41m[m
+android/app/build.gradle.kts:44: trailing whitespace.
+[32m+[m[32m    }[m[41m[m
+android/app/build.gradle.kts:45: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+android/app/build.gradle.kts:46: trailing whitespace.
+[32m+[m[41m[m
+android/app/build.gradle.kts:47: trailing whitespace.
+[32m+[m[32mflutter {[m[41m[m
+android/app/build.gradle.kts:48: trailing whitespace.
+[32m+[m[32m    source = "../.."[m[41m[m
+android/app/build.gradle.kts:49: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+android/app/src/debug/AndroidManifest.xml:1: trailing whitespace.
+[32m+[m[32m<manifest xmlns:android="http://schemas.android.com/apk/res/android">[m[41m[m
+android/app/src/debug/AndroidManifest.xml:2: trailing whitespace.
+[32m+[m[32m    <!-- The INTERNET permission is required for development. Specifically,[m[41m[m
+android/app/src/debug/AndroidManifest.xml:3: trailing whitespace.
+[32m+[m[32m         the Flutter tool needs it to communicate with the running application[m[41m[m
+android/app/src/debug/AndroidManifest.xml:4: trailing whitespace.
+[32m+[m[32m         to allow setting breakpoints, to provide hot reload, etc.[m[41m[m
+android/app/src/debug/AndroidManifest.xml:5: trailing whitespace.
+[32m+[m[32m    -->[m[41m[m
+android/app/src/debug/AndroidManifest.xml:6: trailing whitespace.
+[32m+[m[32m    <uses-permission android:name="android.permission.INTERNET"/>[m[41m[m
+android/app/src/debug/AndroidManifest.xml:7: trailing whitespace.
+[32m+[m[32m</manifest>[m[41m[m
+android/app/src/main/AndroidManifest.xml:1: trailing whitespace.
+[32m+[m[32m<manifest xmlns:android="http://schemas.android.com/apk/res/android">[m[41m[m
+android/app/src/main/AndroidManifest.xml:2: trailing whitespace.
+[32m+[m[32m    <uses-permission android:name="android.permission.INTERNET"/>[m[41m[m
+android/app/src/main/AndroidManifest.xml:3: trailing whitespace.
+[32m+[m[32m    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>[m[41m[m
+android/app/src/main/AndroidManifest.xml:4: trailing whitespace.
+[32m+[m[32m    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>[m[41m[m
+android/app/src/main/AndroidManifest.xml:5: trailing whitespace.
+[32m+[m[32m    <application[m[41m[m
+android/app/src/main/AndroidManifest.xml:6: trailing whitespace.
+[32m+[m[32m        android:label="emergency_app"[m[41m[m
+android/app/src/main/AndroidManifest.xml:7: trailing whitespace.
+[32m+[m[32m        android:name="${applicationName}"[m[41m[m
+android/app/src/main/AndroidManifest.xml:8: trailing whitespace.
+[32m+[m[32m        android:icon="@mipmap/ic_launcher">[m[41m[m
+android/app/src/main/AndroidManifest.xml:9: trailing whitespace.
+[32m+[m[32m        <activity[m[41m[m
+android/app/src/main/AndroidManifest.xml:10: trailing whitespace.
+[32m+[m[32m            android:name=".MainActivity"[m[41m[m
+android/app/src/main/AndroidManifest.xml:11: trailing whitespace.
+[32m+[m[32m            android:exported="true"[m[41m[m
+android/app/src/main/AndroidManifest.xml:12: trailing whitespace.
+[32m+[m[32m            android:launchMode="singleTop"[m[41m[m
+android/app/src/main/AndroidManifest.xml:13: trailing whitespace.
+[32m+[m[32m            android:taskAffinity=""[m[41m[m
+android/app/src/main/AndroidManifest.xml:14: trailing whitespace.
+[32m+[m[32m            android:theme="@style/LaunchTheme"[m[41m[m
+android/app/src/main/AndroidManifest.xml:15: trailing whitespace.
+[32m+[m[32m            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"[m[41m[m
+android/app/src/main/AndroidManifest.xml:16: trailing whitespace.
+[32m+[m[32m            android:hardwareAccelerated="true"[m[41m[m
+android/app/src/main/AndroidManifest.xml:17: trailing whitespace.
+[32m+[m[32m            android:windowSoftInputMode="adjustResize">[m[41m[m
+android/app/src/main/AndroidManifest.xml:18: trailing whitespace.
+[32m+[m[32m            <!-- Specifies an Android theme to apply to this Activity as soon as[m[41m[m
+android/app/src/main/AndroidManifest.xml:19: trailing whitespace.
+[32m+[m[32m                 the Android process has started. This theme is visible to the user[m[41m[m
+android/app/src/main/AndroidManifest.xml:20: trailing whitespace.
+[32m+[m[32m                 while the Flutter UI initializes. After that, this theme continues[m[41m[m
+android/app/src/main/AndroidManifest.xml:21: trailing whitespace.
+[32m+[m[32m                 to determine the Window background behind the Flutter UI. -->[m[41m[m
+android/app/src/main/AndroidManifest.xml:22: trailing whitespace.
+[32m+[m[32m            <meta-data[m[41m[m
+android/app/src/main/AndroidManifest.xml:23: trailing whitespace.
+[32m+[m[32m              android:name="io.flutter.embedding.android.NormalTheme"[m[41m[m
+android/app/src/main/AndroidManifest.xml:24: trailing whitespace.
+[32m+[m[32m              android:resource="@style/NormalTheme"[m[41m[m
+android/app/src/main/AndroidManifest.xml:25: trailing whitespace.
+[32m+[m[32m              />[m[41m[m
+android/app/src/main/AndroidManifest.xml:26: trailing whitespace.
+[32m+[m[32m            <intent-filter>[m[41m[m
+android/app/src/main/AndroidManifest.xml:27: trailing whitespace.
+[32m+[m[32m                <action android:name="android.intent.action.MAIN"/>[m[41m[m
+android/app/src/main/AndroidManifest.xml:28: trailing whitespace.
+[32m+[m[32m                <category android:name="android.intent.category.LAUNCHER"/>[m[41m[m
+android/app/src/main/AndroidManifest.xml:29: trailing whitespace.
+[32m+[m[32m            </intent-filter>[m[41m[m
+android/app/src/main/AndroidManifest.xml:30: trailing whitespace.
+[32m+[m[32m        </activity>[m[41m[m
+android/app/src/main/AndroidManifest.xml:31: trailing whitespace.
+[32m+[m[32m        <!-- Don't delete the meta-data below.[m[41m[m
+android/app/src/main/AndroidManifest.xml:32: trailing whitespace.
+[32m+[m[32m             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->[m[41m[m
+android/app/src/main/AndroidManifest.xml:33: trailing whitespace.
+[32m+[m[32m        <meta-data[m[41m[m
+android/app/src/main/AndroidManifest.xml:34: trailing whitespace.
+[32m+[m[32m            android:name="flutterEmbedding"[m[41m[m
+android/app/src/main/AndroidManifest.xml:35: trailing whitespace.
+[32m+[m[32m            android:value="2" />[m[41m[m
+android/app/src/main/AndroidManifest.xml:36: trailing whitespace.
+[32m+[m[32m    </application>[m[41m[m
+android/app/src/main/AndroidManifest.xml:37: trailing whitespace.
+[32m+[m[32m    <!-- Required to query activities that can process text, see:[m[41m[m
+android/app/src/main/AndroidManifest.xml:38: trailing whitespace.
+[32m+[m[32m         https://developer.android.com/training/package-visibility and[m[41m[m
+android/app/src/main/AndroidManifest.xml:39: trailing whitespace.
+[32m+[m[32m         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.[m[41m[m
+android/app/src/main/AndroidManifest.xml:40: trailing whitespace.
+[32m+[m[41m[m
+android/app/src/main/AndroidManifest.xml:41: trailing whitespace.
+[32m+[m[32m         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin. -->[m[41m[m
+android/app/src/main/AndroidManifest.xml:42: trailing whitespace.
+[32m+[m[32m    <queries>[m[41m[m
+android/app/src/main/AndroidManifest.xml:43: trailing whitespace.
+[32m+[m[32m        <intent>[m[41m[m
+android/app/src/main/AndroidManifest.xml:44: trailing whitespace.
+[32m+[m[32m            <action android:name="android.intent.action.PROCESS_TEXT"/>[m[41m[m
+android/app/src/main/AndroidManifest.xml:45: trailing whitespace.
+[32m+[m[32m            <data android:mimeType="text/plain"/>[m[41m[m
+android/app/src/main/AndroidManifest.xml:46: trailing whitespace.
+[32m+[m[32m        </intent>[m[41m[m
+android/app/src/main/AndroidManifest.xml:47: trailing whitespace.
+[32m+[m[32m    </queries>[m[41m[m
+android/app/src/main/AndroidManifest.xml:48: trailing whitespace.
+[32m+[m[32m</manifest>[m[41m[m
+android/app/src/main/kotlin/com/cybernex/emergency_app/MainActivity.kt:1: trailing whitespace.
+[32m+[m[32mpackage com.cybernex.emergency_app[m[41m[m
+android/app/src/main/kotlin/com/cybernex/emergency_app/MainActivity.kt:2: trailing whitespace.
+[32m+[m[41m[m
+android/app/src/main/kotlin/com/cybernex/emergency_app/MainActivity.kt:3: trailing whitespace.
+[32m+[m[32mimport io.flutter.embedding.android.FlutterActivity[m[41m[m
+android/app/src/main/kotlin/com/cybernex/emergency_app/MainActivity.kt:4: trailing whitespace.
+[32m+[m[41m[m
+android/app/src/main/kotlin/com/cybernex/emergency_app/MainActivity.kt:5: trailing whitespace.
+[32m+[m[32mclass MainActivity : FlutterActivity()[m[41m[m
+android/app/src/main/res/drawable-v21/launch_background.xml:1: trailing whitespace.
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+android/app/src/main/res/drawable-v21/launch_background.xml:2: trailing whitespace.
+[32m+[m[32m<!-- Modify this file to customize your launch splash screen -->[m[41m[m
+android/app/src/main/res/drawable-v21/launch_background.xml:3: trailing whitespace.
+[32m+[m[32m<layer-list xmlns:android="http://schemas.android.com/apk/res/android">[m[41m[m
+android/app/src/main/res/drawable-v21/launch_background.xml:4: trailing whitespace.
+[32m+[m[32m    <item android:drawable="?android:colorBackground" />[m[41m[m
+android/app/src/main/res/drawable-v21/launch_background.xml:5: trailing whitespace.
+[32m+[m[41m[m
+android/app/src/main/res/drawable-v21/launch_background.xml:6: trailing whitespace.
+[32m+[m[32m    <!-- You can insert your own image assets here -->[m[41m[m
+android/app/src/main/res/drawable-v21/launch_background.xml:7: trailing whitespace.
+[32m+[m[32m    <!-- <item>[m[41m[m
+android/app/src/main/res/drawable-v21/launch_background.xml:8: trailing whitespace.
+[32m+[m[32m        <bitmap[m[41m[m
+android/app/src/main/res/drawable-v21/launch_background.xml:9: trailing whitespace.
+[32m+[m[32m            android:gravity="center"[m[41m[m
+android/app/src/main/res/drawable-v21/launch_background.xml:10: trailing whitespace.
+[32m+[m[32m            android:src="@mipmap/launch_image" />[m[41m[m
+android/app/src/main/res/drawable-v21/launch_background.xml:11: trailing whitespace.
+[32m+[m[32m    </item> -->[m[41m[m
+android/app/src/main/res/drawable-v21/launch_background.xml:12: trailing whitespace.
+[32m+[m[32m</layer-list>[m[41m[m
+android/app/src/main/res/drawable/launch_background.xml:1: trailing whitespace.
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+android/app/src/main/res/drawable/launch_background.xml:2: trailing whitespace.
+[32m+[m[32m<!-- Modify this file to customize your launch splash screen -->[m[41m[m
+android/app/src/main/res/drawable/launch_background.xml:3: trailing whitespace.
+[32m+[m[32m<layer-list xmlns:android="http://schemas.android.com/apk/res/android">[m[41m[m
+android/app/src/main/res/drawable/launch_background.xml:4: trailing whitespace.
+[32m+[m[32m    <item android:drawable="@android:color/white" />[m[41m[m
+android/app/src/main/res/drawable/launch_background.xml:5: trailing whitespace.
+[32m+[m[41m[m
+android/app/src/main/res/drawable/launch_background.xml:6: trailing whitespace.
+[32m+[m[32m    <!-- You can insert your own image assets here -->[m[41m[m
+android/app/src/main/res/drawable/launch_background.xml:7: trailing whitespace.
+[32m+[m[32m    <!-- <item>[m[41m[m
+android/app/src/main/res/drawable/launch_background.xml:8: trailing whitespace.
+[32m+[m[32m        <bitmap[m[41m[m
+android/app/src/main/res/drawable/launch_background.xml:9: trailing whitespace.
+[32m+[m[32m            android:gravity="center"[m[41m[m
+android/app/src/main/res/drawable/launch_background.xml:10: trailing whitespace.
+[32m+[m[32m            android:src="@mipmap/launch_image" />[m[41m[m
+android/app/src/main/res/drawable/launch_background.xml:11: trailing whitespace.
+[32m+[m[32m    </item> -->[m[41m[m
+android/app/src/main/res/drawable/launch_background.xml:12: trailing whitespace.
+[32m+[m[32m</layer-list>[m[41m[m
+android/app/src/main/res/values-night/styles.xml:1: trailing whitespace.
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+android/app/src/main/res/values-night/styles.xml:2: trailing whitespace.
+[32m+[m[32m<resources>[m[41m[m
+android/app/src/main/res/values-night/styles.xml:3: trailing whitespace.
+[32m+[m[32m    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is on -->[m[41m[m
+android/app/src/main/res/values-night/styles.xml:4: trailing whitespace.
+[32m+[m[32m    <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">[m[41m[m
+android/app/src/main/res/values-night/styles.xml:5: trailing whitespace.
+[32m+[m[32m        <!-- Show a splash screen on the activity. Automatically removed when[m[41m[m
+android/app/src/main/res/values-night/styles.xml:6: trailing whitespace.
+[32m+[m[32m             the Flutter engine draws its first frame -->[m[41m[m
+android/app/src/main/res/values-night/styles.xml:7: trailing whitespace.
+[32m+[m[32m        <item name="android:windowBackground">@drawable/launch_background</item>[m[41m[m
+android/app/src/main/res/values-night/styles.xml:8: trailing whitespace.
+[32m+[m[32m    </style>[m[41m[m
+android/app/src/main/res/values-night/styles.xml:9: trailing whitespace.
+[32m+[m[32m    <!-- Theme applied to the Android Window as soon as the process has started.[m[41m[m
+android/app/src/main/res/values-night/styles.xml:10: trailing whitespace.
+[32m+[m[32m         This theme determines the color of the Android Window while your[m[41m[m
+android/app/src/main/res/values-night/styles.xml:11: trailing whitespace.
+[32m+[m[32m         Flutter UI initializes, as well as behind your Flutter UI while its[m[41m[m
+android/app/src/main/res/values-night/styles.xml:12: trailing whitespace.
+[32m+[m[32m         running.[m[41m[m
+android/app/src/main/res/values-night/styles.xml:13: trailing whitespace.
+[32m+[m[41m[m
+android/app/src/main/res/values-night/styles.xml:14: trailing whitespace.
+[32m+[m[32m         This Theme is only used starting with V2 of Flutter's Android embedding. -->[m[41m[m
+android/app/src/main/res/values-night/styles.xml:15: trailing whitespace.
+[32m+[m[32m    <style name="NormalTheme" parent="@android:style/Theme.Black.NoTitleBar">[m[41m[m
+android/app/src/main/res/values-night/styles.xml:16: trailing whitespace.
+[32m+[m[32m        <item name="android:windowBackground">?android:colorBackground</item>[m[41m[m
+android/app/src/main/res/values-night/styles.xml:17: trailing whitespace.
+[32m+[m[32m    </style>[m[41m[m
+android/app/src/main/res/values-night/styles.xml:18: trailing whitespace.
+[32m+[m[32m</resources>[m[41m[m
+android/app/src/main/res/values/styles.xml:1: trailing whitespace.
+[32m+[m[32m<?xml version="1.0" encoding="utf-8"?>[m[41m[m
+android/app/src/main/res/values/styles.xml:2: trailing whitespace.
+[32m+[m[32m<resources>[m[41m[m
+android/app/src/main/res/values/styles.xml:3: trailing whitespace.
+[32m+[m[32m    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is off -->[m[41m[m
+android/app/src/main/res/values/styles.xml:4: trailing whitespace.
+[32m+[m[32m    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">[m[41m[m
+android/app/src/main/res/values/styles.xml:5: trailing whitespace.
+[32m+[m[32m        <!-- Show a splash screen on the activity. Automatically removed when[m[41m[m
+android/app/src/main/res/values/styles.xml:6: trailing whitespace.
+[32m+[m[32m             the Flutter engine draws its first frame -->[m[41m[m
+android/app/src/main/res/values/styles.xml:7: trailing whitespace.
+[32m+[m[32m        <item name="android:windowBackground">@drawable/launch_background</item>[m[41m[m
+android/app/src/main/res/values/styles.xml:8: trailing whitespace.
+[32m+[m[32m    </style>[m[41m[m
+android/app/src/main/res/values/styles.xml:9: trailing whitespace.
+[32m+[m[32m    <!-- Theme applied to the Android Window as soon as the process has started.[m[41m[m
+android/app/src/main/res/values/styles.xml:10: trailing whitespace.
+[32m+[m[32m         This theme determines the color of the Android Window while your[m[41m[m
+android/app/src/main/res/values/styles.xml:11: trailing whitespace.
+[32m+[m[32m         Flutter UI initializes, as well as behind your Flutter UI while its[m[41m[m
+android/app/src/main/res/values/styles.xml:12: trailing whitespace.
+[32m+[m[32m         running.[m[41m[m
+android/app/src/main/res/values/styles.xml:13: trailing whitespace.
+[32m+[m[41m[m
+android/app/src/main/res/values/styles.xml:14: trailing whitespace.
+[32m+[m[32m         This Theme is only used starting with V2 of Flutter's Android embedding. -->[m[41m[m
+android/app/src/main/res/values/styles.xml:15: trailing whitespace.
+[32m+[m[32m    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">[m[41m[m
+android/app/src/main/res/values/styles.xml:16: trailing whitespace.
+[32m+[m[32m        <item name="android:windowBackground">?android:colorBackground</item>[m[41m[m
+android/app/src/main/res/values/styles.xml:17: trailing whitespace.
+[32m+[m[32m    </style>[m[41m[m
+android/app/src/main/res/values/styles.xml:18: trailing whitespace.
+[32m+[m[32m</resources>[m[41m[m
+android/app/src/profile/AndroidManifest.xml:1: trailing whitespace.
+[32m+[m[32m<manifest xmlns:android="http://schemas.android.com/apk/res/android">[m[41m[m
+android/app/src/profile/AndroidManifest.xml:2: trailing whitespace.
+[32m+[m[32m    <!-- The INTERNET permission is required for development. Specifically,[m[41m[m
+android/app/src/profile/AndroidManifest.xml:3: trailing whitespace.
+[32m+[m[32m         the Flutter tool needs it to communicate with the running application[m[41m[m
+android/app/src/profile/AndroidManifest.xml:4: trailing whitespace.
+[32m+[m[32m         to allow setting breakpoints, to provide hot reload, etc.[m[41m[m
+android/app/src/profile/AndroidManifest.xml:5: trailing whitespace.
+[32m+[m[32m    -->[m[41m[m
+android/app/src/profile/AndroidManifest.xml:6: trailing whitespace.
+[32m+[m[32m    <uses-permission android:name="android.permission.INTERNET"/>[m[41m[m
+android/app/src/profile/AndroidManifest.xml:7: trailing whitespace.
+[32m+[m[32m</manifest>[m[41m[m
+android/build.gradle.kts:1: trailing whitespace.
+[32m+[m[32mallprojects {[m[41m[m
+android/build.gradle.kts:2: trailing whitespace.
+[32m+[m[32m    repositories {[m[41m[m
+android/build.gradle.kts:3: trailing whitespace.
+[32m+[m[32m        google()[m[41m[m
+android/build.gradle.kts:4: trailing whitespace.
+[32m+[m[32m        mavenCentral()[m[41m[m
+android/build.gradle.kts:5: trailing whitespace.
+[32m+[m[32m    }[m[41m[m
+android/build.gradle.kts:6: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+android/build.gradle.kts:7: trailing whitespace.
+[32m+[m[41m[m
+android/build.gradle.kts:8: trailing whitespace.
+[32m+[m[32mval newBuildDir: Directory =[m[41m[m
+android/build.gradle.kts:9: trailing whitespace.
+[32m+[m[32m    rootProject.layout.buildDirectory[m[41m[m
+android/build.gradle.kts:10: trailing whitespace.
+[32m+[m[32m        .dir("../../build")[m[41m[m
+android/build.gradle.kts:11: trailing whitespace.
+[32m+[m[32m        .get()[m[41m[m
+android/build.gradle.kts:12: trailing whitespace.
+[32m+[m[32mrootProject.layout.buildDirectory.value(newBuildDir)[m[41m[m
+android/build.gradle.kts:13: trailing whitespace.
+[32m+[m[41m[m
+android/build.gradle.kts:14: trailing whitespace.
+[32m+[m[32msubprojects {[m[41m[m
+android/build.gradle.kts:15: trailing whitespace.
+[32m+[m[32m    val newSubprojectBuildDir: Directory = newBuildDir.dir(project.name)[m[41m[m
+android/build.gradle.kts:16: trailing whitespace.
+[32m+[m[32m    project.layout.buildDirectory.value(newSubprojectBuildDir)[m[41m[m
+android/build.gradle.kts:17: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+android/build.gradle.kts:18: trailing whitespace.
+[32m+[m[32msubprojects {[m[41m[m
+android/build.gradle.kts:19: trailing whitespace.
+[32m+[m[32m    project.evaluationDependsOn(":app")[m[41m[m
+android/build.gradle.kts:20: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+android/build.gradle.kts:21: trailing whitespace.
+[32m+[m[41m[m
+android/build.gradle.kts:22: trailing whitespace.
+[32m+[m[32mtasks.register<Delete>("clean") {[m[41m[m
+android/build.gradle.kts:23: trailing whitespace.
+[32m+[m[32m    delete(rootProject.layout.buildDirectory)[m[41m[m
+android/build.gradle.kts:24: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+android/gradle.properties:1: trailing whitespace.
+[32m+[m[32morg.gradle.jvmargs=-Xmx8G -XX:MaxMetaspaceSize=4G -XX:ReservedCodeCacheSize=512m -XX:+HeapDumpOnOutOfMemoryError[m[41m[m
+android/gradle.properties:2: trailing whitespace.
+[32m+[m[32mandroid.useAndroidX=true[m[41m[m
+android/gradle.properties:3: trailing whitespace.
+[32m+[m[32m# This newDsl flag was added by the Flutter template[m[41m[m
+android/gradle.properties:4: trailing whitespace.
+[32m+[m[32mandroid.newDsl=false[m[41m[m
+android/gradle.properties:5: trailing whitespace.
+[32m+[m[32m# This builtInKotlin flag was added by the Flutter template[m[41m[m
+android/gradle.properties:6: trailing whitespace.
+[32m+[m[32mandroid.builtInKotlin=false[m[41m[m
+android/gradle/wrapper/gradle-wrapper.properties:1: trailing whitespace.
+[32m+[m[32mdistributionBase=GRADLE_USER_HOME[m[41m[m
+android/gradle/wrapper/gradle-wrapper.properties:2: trailing whitespace.
+[32m+[m[32mdistributionPath=wrapper/dists[m[41m[m
+android/gradle/wrapper/gradle-wrapper.properties:3: trailing whitespace.
+[32m+[m[32mzipStoreBase=GRADLE_USER_HOME[m[41m[m
+android/gradle/wrapper/gradle-wrapper.properties:4: trailing whitespace.
+[32m+[m[32mzipStorePath=wrapper/dists[m[41m[m
+android/gradle/wrapper/gradle-wrapper.properties:5: trailing whitespace.
+[32m+[m[32mdistributionUrl=https\://services.gradle.org/distributions/gradle-9.3.1-all.zip[m[41m[m
+android/settings.gradle.kts:1: trailing whitespace.
+[32m+[m[32mpluginManagement {[m[41m[m
+android/settings.gradle.kts:2: trailing whitespace.
+[32m+[m[32m    val flutterSdkPath =[m[41m[m
+android/settings.gradle.kts:3: trailing whitespace.
+[32m+[m[32m        run {[m[41m[m
+android/settings.gradle.kts:4: trailing whitespace.
+[32m+[m[32m            val properties = java.util.Properties()[m[41m[m
+android/settings.gradle.kts:5: trailing whitespace.
+[32m+[m[32m            file("local.properties").inputStream().use { properties.load(it) }[m[41m[m
+android/settings.gradle.kts:6: trailing whitespace.
+[32m+[m[32m            val flutterSdkPath = properties.getProperty("flutter.sdk")[m[41m[m
+android/settings.gradle.kts:7: trailing whitespace.
+[32m+[m[32m            require(flutterSdkPath != null) { "flutter.sdk not set in local.properties" }[m[41m[m
+android/settings.gradle.kts:8: trailing whitespace.
+[32m+[m[32m            flutterSdkPath[m[41m[m
+android/settings.gradle.kts:9: trailing whitespace.
+[32m+[m[32m        }[m[41m[m
+android/settings.gradle.kts:10: trailing whitespace.
+[32m+[m[41m[m
+android/settings.gradle.kts:11: trailing whitespace.
+[32m+[m[32m    includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")[m[41m[m
+android/settings.gradle.kts:12: trailing whitespace.
+[32m+[m[41m[m
+android/settings.gradle.kts:13: trailing whitespace.
+[32m+[m[32m    repositories {[m[41m[m
+android/settings.gradle.kts:14: trailing whitespace.
+[32m+[m[32m        google()[m[41m[m
+android/settings.gradle.kts:15: trailing whitespace.
+[32m+[m[32m        mavenCentral()[m[41m[m
+android/settings.gradle.kts:16: trailing whitespace.
+[32m+[m[32m        gradlePluginPortal()[m[41m[m
+android/settings.gradle.kts:17: trailing whitespace.
+[32m+[m[32m    }[m[41m[m
+android/settings.gradle.kts:18: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+android/settings.gradle.kts:19: trailing whitespace.
+[32m+[m[41m[m
+android/settings.gradle.kts:20: trailing whitespace.
+[32m+[m[32mplugins {[m[41m[m
+android/settings.gradle.kts:21: trailing whitespace.
+[32m+[m[32m    id("dev.flutter.flutter-plugin-loader") version "1.0.0"[m[41m[m
+android/settings.gradle.kts:22: trailing whitespace.
+[32m+[m[32m    id("com.android.application") version "9.1.0" apply false[m[41m[m
+android/settings.gradle.kts:23: trailing whitespace.
+[32m+[m[32m    id("org.jetbrains.kotlin.android") version "2.4.0" apply false[m[41m[m
+android/settings.gradle.kts:24: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+android/settings.gradle.kts:25: trailing whitespace.
+[32m+[m[41m[m
+android/settings.gradle.kts:26: trailing whitespace.
+[32m+[m[32minclude(":app")[m[41m[m
+lib/app_text_styles.dart:1: trailing whitespace.
+[32m+[m[32mimport 'package:flutter/material.dart';[m[41m[m
+lib/app_text_styles.dart:2: trailing whitespace.
+[32m+[m[32mimport 'package:google_fonts/google_fonts.dart';[m[41m[m
+lib/app_text_styles.dart:3: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:4: trailing whitespace.
+[32m+[m[32mimport 'app_colours.dart';[m[41m[m
+lib/app_text_styles.dart:5: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:6: trailing whitespace.
+[32m+[m[32m/// Typography helpers based on the Poppins family.[m[41m[m
+lib/app_text_styles.dart:7: trailing whitespace.
+[32m+[m[32mclass AppTextStyles {[m[41m[m
+lib/app_text_styles.dart:8: trailing whitespace.
+[32m+[m[32m  AppTextStyles._();[m[41m[m
+lib/app_text_styles.dart:9: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:10: trailing whitespace.
+[32m+[m[32m  static TextStyle get display => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:11: trailing whitespace.
+[32m+[m[32m    fontSize: 26,[m[41m[m
+lib/app_text_styles.dart:12: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w700,[m[41m[m
+lib/app_text_styles.dart:13: trailing whitespace.
+[32m+[m[32m    color: AppColors.textDark,[m[41m[m
+lib/app_text_styles.dart:14: trailing whitespace.
+[32m+[m[32m    height: 1.25,[m[41m[m
+lib/app_text_styles.dart:15: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:16: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:17: trailing whitespace.
+[32m+[m[32m  static TextStyle get title => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:18: trailing whitespace.
+[32m+[m[32m    fontSize: 18,[m[41m[m
+lib/app_text_styles.dart:19: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w600,[m[41m[m
+lib/app_text_styles.dart:20: trailing whitespace.
+[32m+[m[32m    color: AppColors.textDark,[m[41m[m
+lib/app_text_styles.dart:21: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:22: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:23: trailing whitespace.
+[32m+[m[32m  static TextStyle get titleWhite => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:24: trailing whitespace.
+[32m+[m[32m    fontSize: 18,[m[41m[m
+lib/app_text_styles.dart:25: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w600,[m[41m[m
+lib/app_text_styles.dart:26: trailing whitespace.
+[32m+[m[32m    color: Colors.white,[m[41m[m
+lib/app_text_styles.dart:27: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:28: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:29: trailing whitespace.
+[32m+[m[32m  static TextStyle get sectionTitle => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:30: trailing whitespace.
+[32m+[m[32m    fontSize: 20,[m[41m[m
+lib/app_text_styles.dart:31: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w700,[m[41m[m
+lib/app_text_styles.dart:32: trailing whitespace.
+[32m+[m[32m    color: AppColors.textDark,[m[41m[m
+lib/app_text_styles.dart:33: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:34: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:35: trailing whitespace.
+[32m+[m[32m  static TextStyle get body => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:36: trailing whitespace.
+[32m+[m[32m    fontSize: 13,[m[41m[m
+lib/app_text_styles.dart:37: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w400,[m[41m[m
+lib/app_text_styles.dart:38: trailing whitespace.
+[32m+[m[32m    color: AppColors.textBody,[m[41m[m
+lib/app_text_styles.dart:39: trailing whitespace.
+[32m+[m[32m    height: 1.5,[m[41m[m
+lib/app_text_styles.dart:40: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:41: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:42: trailing whitespace.
+[32m+[m[32m  static TextStyle get bodyWhite => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:43: trailing whitespace.
+[32m+[m[32m    fontSize: 13,[m[41m[m
+lib/app_text_styles.dart:44: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w400,[m[41m[m
+lib/app_text_styles.dart:45: trailing whitespace.
+[32m+[m[32m    color: Colors.white,[m[41m[m
+lib/app_text_styles.dart:46: trailing whitespace.
+[32m+[m[32m    height: 1.5,[m[41m[m
+lib/app_text_styles.dart:47: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:48: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:49: trailing whitespace.
+[32m+[m[32m  static TextStyle get caption => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:50: trailing whitespace.
+[32m+[m[32m    fontSize: 11,[m[41m[m
+lib/app_text_styles.dart:51: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w500,[m[41m[m
+lib/app_text_styles.dart:52: trailing whitespace.
+[32m+[m[32m    color: AppColors.textMuted,[m[41m[m
+lib/app_text_styles.dart:53: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:54: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:55: trailing whitespace.
+[32m+[m[32m  static TextStyle get label => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:56: trailing whitespace.
+[32m+[m[32m    fontSize: 12,[m[41m[m
+lib/app_text_styles.dart:57: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w600,[m[41m[m
+lib/app_text_styles.dart:58: trailing whitespace.
+[32m+[m[32m    color: AppColors.textDark,[m[41m[m
+lib/app_text_styles.dart:59: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:60: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:61: trailing whitespace.
+[32m+[m[32m  static TextStyle get button => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:62: trailing whitespace.
+[32m+[m[32m    fontSize: 14,[m[41m[m
+lib/app_text_styles.dart:63: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w600,[m[41m[m
+lib/app_text_styles.dart:64: trailing whitespace.
+[32m+[m[32m    color: Colors.white,[m[41m[m
+lib/app_text_styles.dart:65: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:66: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:67: trailing whitespace.
+[32m+[m[32m  // White-on-gradient variants for the hero and AI insight panels.[m[41m[m
+lib/app_text_styles.dart:68: trailing whitespace.
+[32m+[m[32m  static TextStyle get heroTitle => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:69: trailing whitespace.
+[32m+[m[32m    fontSize: 21,[m[41m[m
+lib/app_text_styles.dart:70: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w700,[m[41m[m
+lib/app_text_styles.dart:71: trailing whitespace.
+[32m+[m[32m    color: Colors.white,[m[41m[m
+lib/app_text_styles.dart:72: trailing whitespace.
+[32m+[m[32m    height: 1.25,[m[41m[m
+lib/app_text_styles.dart:73: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:74: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:75: trailing whitespace.
+[32m+[m[32m  static TextStyle get bodySmallWhite => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:76: trailing whitespace.
+[32m+[m[32m    fontSize: 12,[m[41m[m
+lib/app_text_styles.dart:77: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w400,[m[41m[m
+lib/app_text_styles.dart:78: trailing whitespace.
+[32m+[m[32m    color: Colors.white,[m[41m[m
+lib/app_text_styles.dart:79: trailing whitespace.
+[32m+[m[32m    height: 1.5,[m[41m[m
+lib/app_text_styles.dart:80: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:81: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:82: trailing whitespace.
+[32m+[m[32m  static TextStyle get captionWhite => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:83: trailing whitespace.
+[32m+[m[32m    fontSize: 10,[m[41m[m
+lib/app_text_styles.dart:84: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w500,[m[41m[m
+lib/app_text_styles.dart:85: trailing whitespace.
+[32m+[m[32m    color: Colors.white70,[m[41m[m
+lib/app_text_styles.dart:86: trailing whitespace.
+[32m+[m[32m    height: 1.2,[m[41m[m
+lib/app_text_styles.dart:87: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:88: trailing whitespace.
+[32m+[m[41m[m
+lib/app_text_styles.dart:89: trailing whitespace.
+[32m+[m[32m  static TextStyle get statWhite => GoogleFonts.poppins([m[41m[m
+lib/app_text_styles.dart:90: trailing whitespace.
+[32m+[m[32m    fontSize: 11,[m[41m[m
+lib/app_text_styles.dart:91: trailing whitespace.
+[32m+[m[32m    fontWeight: FontWeight.w600,[m[41m[m
+lib/app_text_styles.dart:92: trailing whitespace.
+[32m+[m[32m    color: Colors.white,[m[41m[m
+lib/app_text_styles.dart:93: trailing whitespace.
+[32m+[m[32m    height: 1.2,[m[41m[m
+lib/app_text_styles.dart:94: trailing whitespace.
+[32m+[m[32m  );[m[41m[m
+lib/app_text_styles.dart:95: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+lib/feature_cards.dart:1: trailing whitespace.
+[32m+[m[32mimport 'package:flutter/material.dart';[m[41m[m
+lib/feature_cards.dart:2: trailing whitespace.
+[32m+[m[41m[m
+lib/feature_cards.dart:3: trailing whitespace.
+[32m+[m[32mimport 'app_colours.dart';[m[41m[m
+lib/feature_cards.dart:4: trailing whitespace.
+[32m+[m[32mimport 'app_text_styles.dart';[m[41m[m
+lib/feature_cards.dart:5: trailing whitespace.
+[32m+[m[41m[m
+lib/feature_cards.dart:6: trailing whitespace.
+[32m+[m[32m/// 2x2 grid of feature shortcuts: Scan Leaf, My Reports,[m[41m[m
+lib/feature_cards.dart:7: trailing whitespace.
+[32m+[m[32m/// Disease Map and Expert Help.[m[41m[m
+lib/feature_cards.dart:8: trailing whitespace.
+[32m+[m[32mclass FeatureCards extends StatelessWidget {[m[41m[m
+lib/feature_cards.dart:9: trailing whitespace.
+[32m+[m[32m  const FeatureCards({super.key});[m[41m[m
+lib/feature_cards.dart:10: trailing whitespace.
+[32m+[m[41m[m
+lib/feature_cards.dart:11: trailing whitespace.
+[32m+[m[32m  static const List<_FeatureData> _features = [[m[41m[m
+lib/feature_cards.dart:12: trailing whitespace.
+[32m+[m[32m    _FeatureData([m[41m[m
+lib/feature_cards.dart:13: trailing whitespace.
+[32m+[m[32m      title: 'Scan Leaf',[m[41m[m
+lib/feature_cards.dart:14: trailing whitespace.
+[32m+[m[32m      subtitle: 'Take a photo or upload an image of the leaf',[m[41m[m
+lib/feature_cards.dart:15: trailing whitespace.
+[32m+[m[32m      icon: Icons.qr_code_scanner_rounded,[m[41m[m
+lib/feature_cards.dart:16: trailing whitespace.
+[32m+[m[32m      bg: AppColors.cardGreen,[m[41m[m
+lib/feature_cards.dart:17: trailing whitespace.
+[32m+[m[32m      accent: AppColors.cardGreenAccent,[m[41m[m
+lib/feature_cards.dart:18: trailing whitespace.
+[32m+[m[32m    ),[m[41m[m
+lib/feature_cards.dart:19: trailing whitespace.
+[32m+[m[32m    _FeatureData([m[41m[m
+lib/feature_cards.dart:20: trailing whitespace.
+[32m+[m[32m      title: 'My Reports',[m[41m[m
+lib/feature_cards.dart:21: trailing whitespace.
+[32m+[m[32m      subtitle: 'View your past detections and analysis',[m[41m[m
+lib/feature_cards.dart:22: trailing whitespace.
+[32m+[m[32m      icon: Icons.description_rounded,[m[41m[m
+lib/feature_cards.dart:23: trailing whitespace.
+[32m+[m[32m      bg: AppColors.cardBlue,[m[41m[m
+lib/feature_cards.dart:24: trailing whitespace.
+[32m+[m[32m      accent: AppColors.cardBlueAccent,[m[41m[m
+lib/feature_cards.dart:25: trailing whitespace.
+[32m+[m[32m    ),[m[41m[m
+lib/feature_cards.dart:26: trailing whitespace.
+[32m+[m[32m    _FeatureData([m[41m[m
+lib/feature_cards.dart:27: trailing whitespace.
+[32m+[m[32m      title: 'Disease Map',[m[41m[m
+lib/feature_cards.dart:28: trailing whitespace.
+[32m+[m[32m      subtitle: 'Check disease spread in your area',[m[41m[m
+lib/feature_cards.dart:29: trailing whitespace.
+[32m+[m[32m      icon: Icons.map_rounded,[m[41m[m
+lib/feature_cards.dart:30: trailing whitespace.
+[32m+[m[32m      bg: AppColors.cardYellow,[m[41m[m
+lib/feature_cards.dart:31: trailing whitespace.
+[32m+[m[32m      accent: AppColors.cardYellowAccent,[m[41m[m
+lib/feature_cards.dart:32: trailing whitespace.
+[32m+[m[32m    ),[m[41m[m
+lib/feature_cards.dart:33: trailing whitespace.
+[32m+[m[32m    _FeatureData([m[41m[m
+lib/feature_cards.dart:34: trailing whitespace.
+[32m+[m[32m      title: 'Expert Help',[m[41m[m
+lib/feature_cards.dart:35: trailing whitespace.
+[32m+[m[32m      subtitle: 'Connect with agricultural experts and get guidance',[m[41m[m
+lib/feature_cards.dart:36: trailing whitespace.
+[32m+[m[32m      icon: Icons.support_agent_rounded,[m[41m[m
+lib/feature_cards.dart:37: trailing whitespace.
+[32m+[m[32m      bg: AppColors.cardLavender,[m[41m[m
+lib/feature_cards.dart:38: trailing whitespace.
+[32m+[m[32m      accent: AppColors.cardLavenderAccent,[m[41m[m
+lib/feature_cards.dart:39: trailing whitespace.
+[32m+[m[32m    ),[m[41m[m
+lib/feature_cards.dart:40: trailing whitespace.
+[32m+[m[32m  ];[m[41m[m
+lib/feature_cards.dart:41: trailing whitespace.
+[32m+[m[41m[m
+lib/feature_cards.dart:42: trailing whitespace.
+[32m+[m[32m  void _onFeatureTap(BuildContext context, String name) {[m[41m[m
+lib/feature_cards.dart:43: trailing whitespace.
+[32m+[m[32m    ScaffoldMessenger.of(context)[m[41m[m
+lib/feature_cards.dart:44: trailing whitespace.
+[32m+[m[32m      ..hideCurrentSnackBar()[m[41m[m
+lib/feature_cards.dart:45: trailing whitespace.
+[32m+[m[32m      ..showSnackBar(SnackBar(content: Text('$name coming soon')));[m[41m[m
+lib/feature_cards.dart:46: trailing whitespace.
+[32m+[m[32m  }[m[41m[m
+lib/feature_cards.dart:47: trailing whitespace.
+[32m+[m[41m[m
+lib/feature_cards.dart:48: trailing whitespace.
+[32m+[m[32m  @override[m[41m[m
+lib/feature_cards.dart:49: trailing whitespace.
+[32m+[m[32m  Widget build(BuildContext context) {[m[41m[m
+lib/feature_cards.dart:50: trailing whitespace.
+[32m+[m[32m    return Padding([m[41m[m
+lib/feature_cards.dart:51: trailing whitespace.
+[32m+[m[32m      padding: const EdgeInsets.symmetric(horizontal: 20),[m[41m[m
+lib/feature_cards.dart:52: trailing whitespace.
+[32m+[m[32m      child: GridView.count([m[41m[m
+lib/feature_cards.dart:53: trailing whitespace.
+[32m+[m[32m        crossAxisCount: 2,[m[41m[m
+lib/feature_cards.dart:54: trailing whitespace.
+[32m+[m[32m        shrinkWrap: true,[m[41m[m
+lib/feature_cards.dart:55: trailing whitespace.
+[32m+[m[32m        physics: const NeverScrollableScrollPhysics(),[m[41m[m
+lib/feature_cards.dart:56: trailing whitespace.
+[32m+[m[32m        mainAxisSpacing: 12,[m[41m[m
+lib/feature_cards.dart:57: trailing whitespace.
+[32m+[m[32m        crossAxisSpacing: 12,[m[41m[m
+lib/feature_cards.dart:58: trailing whitespace.
+[32m+[m[32m        childAspectRatio: 1,[m[41m[m
+lib/feature_cards.dart:59: trailing whitespace.
+[32m+[m[32m        children: [[m[41m[m
+lib/feature_cards.dart:60: trailing whitespace.
+[32m+[m[32m          for (final feature in _features)[m[41m[m
+lib/feature_cards.dart:61: trailing whitespace.
+[32m+[m[32m            _FeatureCard([m[41m[m
+lib/feature_cards.dart:62: trailing whitespace.
+[32m+[m[32m              data: feature,[m[41m[m
+lib/feature_cards.dart:63: trailing whitespace.
+[32m+[m[32m              onTap: () => _onFeatureTap(context, feature.title),[m[41m[m
+lib/feature_cards.dart:64: trailing whitespace.
+[32m+[m[32m            ),[m[41m[m
+lib/feature_cards.dart:65: trailing whitespace.
+[32m+[m[32m        ],[m[41m[m
+lib/feature_cards.dart:66: trailing whitespace.
+[32m+[m[32m      ),[m[41m[m
+lib/feature_cards.dart:67: trailing whitespace.
+[32m+[m[32m    );[m[41m[m
+lib/feature_cards.dart:68: trailing whitespace.
+[32m+[m[32m  }[m[41m[m
+lib/feature_cards.dart:69: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+lib/feature_cards.dart:70: trailing whitespace.
+[32m+[m[41m[m
+lib/feature_cards.dart:71: trailing whitespace.
+[32m+[m[32mclass _FeatureData {[m[41m[m
+lib/feature_cards.dart:72: trailing whitespace.
+[32m+[m[32m  const _FeatureData({[m[41m[m
+lib/feature_cards.dart:73: trailing whitespace.
+[32m+[m[32m    required this.title,[m[41m[m
+lib/feature_cards.dart:74: trailing whitespace.
+[32m+[m[32m    required this.subtitle,[m[41m[m
+lib/feature_cards.dart:75: trailing whitespace.
+[32m+[m[32m    required this.icon,[m[41m[m
+lib/feature_cards.dart:76: trailing whitespace.
+[32m+[m[32m    required this.bg,[m[41m[m
+lib/feature_cards.dart:77: trailing whitespace.
+[32m+[m[32m    required this.accent,[m[41m[m
+lib/feature_cards.dart:78: trailing whitespace.
+[32m+[m[32m  });[m[41m[m
+lib/feature_cards.dart:79: trailing whitespace.
+[32m+[m[41m[m
+lib/feature_cards.dart:80: trailing whitespace.
+[32m+[m[32m  final String title;[m[41m[m
+lib/feature_cards.dart:81: trailing whitespace.
+[32m+[m[32m  final String subtitle;[m[41m[m
+lib/feature_cards.dart:82: trailing whitespace.
+[32m+[m[32m  final IconData icon;[m[41m[m
+lib/feature_cards.dart:83: trailing whitespace.
+[32m+[m[32m  final Color bg;[m[41m[m
+lib/feature_cards.dart:84: trailing whitespace.
+[32m+[m[32m  final Color accent;[m[41m[m
+lib/feature_cards.dart:85: trailing whitespace.
+[32m+[m[32m}[m[41m[m
+lib/feature_cards.dart:86: trailing whitespace.
+[32m+[m[41m[m
+lib/feature_cards.dart:87: trailing whitespace.
+[32m+[m[32mclass _FeatureCard extends StatelessWidget {[m[41m[m
+lib/feature_cards.dart:88: trailing whitespace.
+[32m+[m[32m  const _FeatureCard({required this.data, required this.onTap});[m[41m[m
+lib/feature_cards.dart:89: trailing whitespace.
+[32m+[m[41m[m
+lib/feature_cards.dart:90: trailing whitespace.
+[32m+[m[32m  final _FeatureData data;[m[41m[m
+lib/feature_cards.dart:91: trailing whitespace.
+[32m+[m[32m  final VoidCallback onTap;[m[41m[m
+lib/feature_cards.dart:92: trailing whitespace.
+[32m+[m[41m[m
+lib/feature_cards.dart:93: trailing whitespace.
+[32m+[m[32m  @override[m[41m[m
+lib/feature_cards.dart:94: trailing whitespace.
+[32m+[m[32m  Widget build(BuildContext context) {[m[41m[m
+lib/feature_cards.dart:95: trailing whitespace.
+[32m+[m[32m    return Material([m[41m[m
+lib/feature_cards.dart:96: trailing whitespace.
+[32m+[m[32m      color: data.bg,[m[41m[m
+lib/feature_cards.dart:97: trailing whitespace.
+[32m+[m[32m      borderRadius: BorderRadius.circular(20),[m[41m[m
+lib/feature_cards.dart:98: trailing whitespace.
+[32m+[m[32m      child: InkWell([m[41m[m
+lib/feature_cards.dart:99: trailing whitespace.
+[32m+[m[32m        onTap: onTap,[m[41m[m
+lib/feature_cards.dart:100: trailing whitespace.
+[32m+[m[32m        borderRadius: BorderRadius.circular(20),[m[41m[m
+lib/feature_cards.dart:101: trailing whitespace.
+[32m+[m[32m        child: Padding([m[41m[m
+lib/feature_cards.dart:102: trailing whitespace.
+[32m+[m[32m          padding: const EdgeInsets.all(14),[m[41m[m
+lib/feature_cards.dart:103: trailing whitespace.
+[32m+[m[32m          child: Column([m[41m[m
+lib/feature_cards.dart:104: trailing whitespace.
+[32m+[m[32m            crossAxisAlignment: CrossAxisAlignment.start,[m[41m[m
+lib/feature_cards.dart:105: trailing whitespace.
+[32m+[m[32m            children: [[m[41m[m
+lib/feature_cards.dart:106: trailing whitespace.
+[32m+[m[32m              Row([m[41m[m
+lib/feature_cards.dart:107: trailing whitespace.
+[32m+[m[32m                mainAxisAlignment: MainAxisAlignment.spaceBetween,[m[41m[m
+lib/feature_cards.dart:108: trailing whitespace.
+[32m+[m[32m                children: [[m[41m[m
+lib/feature_cards.dart:109: trailing whitespace.
+[32m+[m[32m                  Container([m[41m[m
+lib/feature_cards.dart:110: trailing whitespace.
+[32m+[m[32m                    width: 40,[m[41m[m
+lib/feature_cards.dart:111: trailing whitespace.
+[32m+[m[32m                    height: 40,[m[41m[m
+lib/feature_cards.dart:112: trailing whitespace.
+[32m+[m[32m                    decoration: BoxDecoration([m[41m[m
+lib/feature_cards.dart:113: trailing whitespace.
+[32m+[m[32m                      color: Colors.white,[m[41m[m
+lib/feature_cards.dart:114: trailing whitespace.
+[32m+[m[32m                      borderRadius: BorderRadius.circular(13),[m[41m[m
+lib/feature_cards.dart:115: trailing whitespace.
+[32m+[m[32m                      boxShadow: [[m[41m[m
+lib/feature_cards.dart:116: trailing whitespace.
+[32m+[m[32m                        BoxShadow([m[41m[m
+lib/feature_cards.dart:117: trailing whitespace.
+[32m+[m[32m                          color: data.accent.withValues(alpha: 0.15),[m[41m[m
+lib/feature_cards.dart:118: trailing whitespace.
+[32m+[m[32m                          blurRadius: 8,[m[41m[m
+lib/feature_cards.dart:119: trailing whitespace.
+[32m+[m[32m                          offset: const Offset(0, 3),[m[41m[m
+lib/feature_cards.dart:120: trailing whitespace.
+[32m+[m[32m                        ),[m[41m[m
+lib/feature_cards.dart:121: trailing whitespace.
+[32m+[m[32m                      ],[m[41m[m
+lib/feature_cards.dart:122: trailing whitespace.
+[32m+[m[32m                    ),[m[41m[m
+lib/feature_cards.dart:123: trailing whitespace.
+[32m+[m[32m                    child: Icon(data.icon, color: data.accent, size: 22),[m[41m[m
+lib/feature_cards.dart:124: trailing whitespace.
+[32m+[m[32m                  ),[m[41m[m
+lib/feature_cards.dart:125: trailing whitespace.
+[32m+[m[32m                  Icon([m[41m[m
+lib/feature_cards.dart:126: trailing whitespace.
+[32m+[m[32m                    Icons.arrow_forward_ios_rounded,[m[41m[m
+lib/feature_cards.dart:127: trailing whitespace.
+[32m+[m[32m                    color: data.accent.withValues(alpha: 0.7),[m[41m[m
+lib/feature_cards.dart:128: trailing whitespace.
+[32m+[m[32m                    size: 14,[m[41m[m
+lib/feature_cards.dart:129: trailing whitespace.
+[32m+[m[32m                  ),[m[41m[m
+lib/feature_cards.dart:130: trailing whitespace.
+[32m+[m[32m                ],[m[41m[m
+lib/feature_cards.dart:131: trailing whitespace.
+[32m+[m[32m              ),[m[41m[m
+lib/feature_cards.dart:132: trailing whitespace.
+[32m+[m[32m              const SizedBox(height: 10),[m[41m[m
+lib/feature_cards.dart:133: trailing whitespace.
+[32m+[m[32m              Text([m[41m[m
+lib/feature_cards.dart:134: trailing whitespace.
+[32m+[m[32m                data.title,[m[41m[m
+lib/feature_cards.dart:135: trailing whitespace.
+[32m+[m[32m                style: AppTextStyles.title.copyWith(fontSize: 15),[m[41m[m
+lib/feature_cards.dart:136: trailing whitespace.
+[32m+[m[32m                maxLines: 1,[m[41m[m
+lib/feature_cards.dart:137: trailing whitespace.
+[32m+[m[32m                overflow: TextOverflow.ellipsis,[m[41m[m
+lib/feature_cards.dart:138: trailing whitespace.
+[32m+[m[32m              ),[m[41m[m
+lib/feature_cards.dart:139: trailing whitespace.
+[32m+[m[32m              const SizedBox(height: 2),[m[41m[m
+lib/feature_cards.dart:140: trailing whitespace.
+[32m+[m[32m              Expanded([m[41m[m
+lib/feature_cards.dart:141: trailing whitespace.
+[32m+[m[32m                child: Text([m[41m[m
+lib/feature_cards.dart:142: trailing whitespace.
+[32m+[m[32m                  data.subtitle,[m[41m[m
+lib/feature_cards.dart:143: trailing whitespace.
+[32m+[m[32m                  style: AppTextStyles.caption.copyWith([m[41m[m
+lib/feature_cards.dart:144: trailing whitespace.
+[32m+[m[32m                    fontSize: 10.5,[m[41m[m
+lib/feature_cards.dart:145: trailing whitespace.
+[32m+[m[32m                    height: 1.3,[m[41m[m
+lib/feature_cards.dart:146: trailing whitespace.
+[32m+[m[32m                  ),[m[41m[m
+lib/feature_cards.dart:147: trailing whitespace.
+[32m+[m[32m                  maxLines: 2,[m[41m[m
+lib/feature_cards.dart:148: trailing whitespace.
+[32m+[m[32m                  overflow: TextOverflow.ellipsis,[m[41m[m
+lib/feature_cards.dart:149: trailing whitespace.
+[32m+[m[32m                ),[m[41m[m
+lib/feature_cards.dart:150: trailing whitespace.
+[32m+[m[32m              ),[m[41m[m
+lib/feature_cards.dart:151: trailing whitespace.
+[32m+[m[32m            ],[m[41m[m
+lib/feature_cards.dart:152: trailing whitespace.
+[32m+[m[32m          ),[m[41m[m
+lib/feature_cards.dart:153: trailing whitespace.
+[32m+[m[32m        ),[m[41m

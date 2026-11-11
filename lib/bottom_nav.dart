@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'app_colours.dart';
 import 'app_text_styles.dart';
 
-/// Custom bottom navigation with 5 tabs; the middle "Scan" tab is
-/// raised as a green circular action button.
+/// Floating bottom navigation with 4 tabs. Scanning is handled by a separate
+/// floating action button on the home page.
 class AgroBottomNav extends StatelessWidget {
   const AgroBottomNav({super.key, required this.currentIndex, this.onTap});
 
@@ -13,7 +13,6 @@ class AgroBottomNav extends StatelessWidget {
 
   static const List<_NavItem> _items = [
     _NavItem(label: 'Home', icon: Icons.home_rounded),
-    _NavItem(label: 'Scan', icon: Icons.qr_code_scanner_rounded),
     _NavItem(label: 'Map', icon: Icons.map_rounded),
     _NavItem(label: 'Reports', icon: Icons.description_rounded),
     _NavItem(label: 'Profile', icon: Icons.person_rounded),
@@ -23,21 +22,22 @@ class AgroBottomNav extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        color: AppColors.cardWhite,
-        borderRadius: BorderRadius.circular(24),
+        color: AppColors.surface,
+        borderRadius: BorderRadius.circular(26),
+        border: Border.all(color: AppColors.outline),
         boxShadow: [
           BoxShadow(
-            color: AppColors.shadow,
-            blurRadius: 20,
-            offset: const Offset(0, -4),
+            color: AppColors.deepGreen.withValues(alpha: 0.10),
+            blurRadius: 22,
+            offset: const Offset(0, 8),
           ),
         ],
       ),
-      padding: const EdgeInsets.symmetric(vertical: 8),
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          for (int i = 0; i < _items.length; i++) _buildItem(context, i),
+          for (int i = 0; i < _items.length; i++)
+            Expanded(child: _buildItem(context, i)),
         ],
       ),
     );
@@ -45,73 +45,40 @@ class AgroBottomNav extends StatelessWidget {
 
   Widget _buildItem(BuildContext context, int index) {
     final item = _items[index];
-    final bool isMiddle = index == 1;
     final bool isSelected = currentIndex == index;
-
-    if (isMiddle) {
-      return GestureDetector(
-        onTap: () => onTap?.call(index),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Container(
-              width: 46,
-              height: 46,
-              decoration: BoxDecoration(
-                gradient: const LinearGradient(
-                  colors: [AppColors.primaryDark, AppColors.secondary],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                ),
-                shape: BoxShape.circle,
-                boxShadow: [
-                  BoxShadow(
-                    color: AppColors.primary.withValues(alpha: 0.4),
-                    blurRadius: 12,
-                    offset: const Offset(0, 4),
-                  ),
-                ],
-              ),
-              child: const Icon(
-                Icons.qr_code_scanner_rounded,
-                color: Colors.white,
-                size: 24,
-              ),
-            ),
-            const SizedBox(height: 4),
-            Text(
-              item.label,
-              style: isSelected
-                  ? AppTextStyles.caption.copyWith(color: AppColors.secondary)
-                  : AppTextStyles.caption,
-            ),
-          ],
-        ),
-      );
-    }
 
     return GestureDetector(
       onTap: () => onTap?.call(index),
       behavior: HitTestBehavior.opaque,
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Icon(
-            item.icon,
-            color: isSelected ? AppColors.secondary : AppColors.textMuted,
-            size: 24,
-          ),
-          const SizedBox(height: 4),
-          Text(
-            item.label,
-            style: isSelected
-                ? AppTextStyles.caption.copyWith(
-                    color: AppColors.secondary,
-                    fontWeight: FontWeight.w600,
-                  )
-                : AppTextStyles.caption,
-          ),
-        ],
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 180),
+        curve: Curves.easeOut,
+        padding: const EdgeInsets.symmetric(horizontal: 4, vertical: 6),
+        decoration: BoxDecoration(
+          color: isSelected ? AppColors.mint : Colors.transparent,
+          borderRadius: BorderRadius.circular(16),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(
+              item.icon,
+              color: isSelected ? AppColors.primary : AppColors.textMuted,
+              size: 22,
+            ),
+            const SizedBox(height: 3),
+            Text(
+              item.label,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: AppTextStyles.caption.copyWith(
+                fontSize: 8.5,
+                color: isSelected ? AppColors.primaryDark : AppColors.textMuted,
+                fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

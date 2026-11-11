@@ -46,6 +46,14 @@ class AppColors {
   static const Color shadow = Color(0x1A2E5E2E);
   static const Color divider = Color(0xFFE3EDE5);
 
+  // Dashboard surfaces
+  static const Color surface = Color(0xFFFFFFFF);
+  static const Color surfaceMuted = Color(0xFFF0F6F1);
+  static const Color outline = Color(0xFFE4EEE6);
+  static const Color deepGreen = Color(0xFF0B3D24);
+  static const Color accentLime = Color(0xFFB7E36B);
+  static const Color skyTint = Color(0xFFEAF4EC);
+
   // ---------------------------------------------------------------------------
   // AgroVision registration redesign palette (crop-disease-detection theme).
   // ---------------------------------------------------------------------------

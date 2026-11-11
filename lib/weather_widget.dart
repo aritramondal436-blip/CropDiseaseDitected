@@ -96,12 +96,11 @@ class _WeatherCardState extends State<WeatherCard> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 130,
-      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 14),
+      padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.15),
+        color: Colors.white.withValues(alpha: 0.12),
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: Colors.white.withValues(alpha: 0.30)),
+        border: Border.all(color: Colors.white.withValues(alpha: 0.22)),
       ),
       child: switch (_status) {
         _WeatherStatus.locating =>
@@ -200,26 +199,34 @@ class _LoadedState extends StatelessWidget {
         const SizedBox(height: 10),
         Divider(color: Colors.white.withValues(alpha: 0.25), height: 1),
         const SizedBox(height: 10),
-        _MetricRow(
-          icon: Icons.water_drop_rounded,
-          label: 'Humidity',
-          value: '${data.humidity}%',
+        Row(
+          children: [
+            Expanded(
+              child: _MetricChip(
+                icon: Icons.water_drop_rounded,
+                label: 'Humidity',
+                value: '${data.humidity}%',
+              ),
+            ),
+            const SizedBox(width: 8),
+            Expanded(
+              child: _MetricChip(
+                icon: Icons.air_rounded,
+                label: 'Wind',
+                value: '${data.windKph} km/h',
+              ),
+            ),
+          ],
         ),
-        const SizedBox(height: 6),
-        _MetricRow(
-          icon: Icons.air_rounded,
-          label: 'Wind',
-          value: '${data.windKph} km/h',
-        ),
-        const SizedBox(height: 12),
+        const SizedBox(height: 10),
         const _ScanStatusIndicator(),
       ],
     );
   }
 }
 
-class _MetricRow extends StatelessWidget {
-  const _MetricRow({
+class _MetricChip extends StatelessWidget {
+  const _MetricChip({
     required this.icon,
     required this.label,
     required this.value,
@@ -231,21 +238,40 @@ class _MetricRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Icon(icon, size: 11, color: Colors.white70),
-        const SizedBox(width: 4),
-        Expanded(
-          child: Text(
-            label,
-            style: AppTextStyles.captionWhite,
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 7),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.10),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: Colors.white.withValues(alpha: 0.16)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Row(
+            children: [
+              Icon(icon, size: 11, color: Colors.white70),
+              const SizedBox(width: 4),
+              Expanded(
+                child: Text(
+                  label,
+                  style: AppTextStyles.captionWhite.copyWith(fontSize: 9),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 2),
+          Text(
+            value,
+            style: AppTextStyles.statWhite.copyWith(fontSize: 12),
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
           ),
-        ),
-        const SizedBox(width: 4),
-        Text(value, style: AppTextStyles.statWhite),
-      ],
+        ],
+      ),
     );
   }
 }

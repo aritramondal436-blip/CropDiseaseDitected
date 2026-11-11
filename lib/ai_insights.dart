@@ -13,10 +13,14 @@ class AIInsights extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 20),
-      padding: const EdgeInsets.all(18),
+      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         gradient: const LinearGradient(
-          colors: [AppColors.primary, AppColors.secondary],
+          colors: [
+            AppColors.deepGreen,
+            AppColors.primaryDark,
+            AppColors.primary,
+          ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
@@ -35,40 +39,49 @@ class AIInsights extends StatelessWidget {
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
               children: [
                 Row(
                   children: [
                     Container(
-                      width: 40,
-                      height: 40,
+                      width: 38,
+                      height: 38,
                       decoration: BoxDecoration(
-                        color: Colors.white.withValues(alpha: 0.2),
+                        color: Colors.white.withValues(alpha: 0.18),
                         borderRadius: BorderRadius.circular(12),
+                        border: Border.all(
+                          color: Colors.white.withValues(alpha: 0.22),
+                        ),
                       ),
                       child: const Icon(
                         Icons.auto_awesome_rounded,
-                        color: Colors.white,
-                        size: 21,
+                        color: AppColors.accentLime,
+                        size: 20,
                       ),
                     ),
                     const SizedBox(width: 10),
                     Expanded(
                       child: Text(
                         'AI-Powered Insights',
-                        style: AppTextStyles.titleWhite,
+                        style: AppTextStyles.titleWhite.copyWith(fontSize: 16),
                         maxLines: 2,
                       ),
                     ),
+                    const SizedBox(width: 6),
+                    const _LiveBadge(),
                   ],
                 ),
-                const SizedBox(height: 12),
+                const SizedBox(height: 10),
                 Text(
                   'Neural networks and computer vision detect crop '
                   'diseases in seconds and help predict potential '
                   'outbreaks in your area.',
-                  style: AppTextStyles.bodyWhite,
+                  style: AppTextStyles.bodyWhite.copyWith(
+                    fontSize: 11.5,
+                    height: 1.4,
+                  ),
                 ),
-                const SizedBox(height: 14),
+                const SizedBox(height: 12),
                 const Wrap(
                   spacing: 8,
                   runSpacing: 8,
@@ -86,8 +99,46 @@ class AIInsights extends StatelessWidget {
               ],
             ),
           ),
-          const SizedBox(width: 16),
+          const SizedBox(width: 14),
           const _NeuralVisual(),
+        ],
+      ),
+    );
+  }
+}
+
+class _LiveBadge extends StatelessWidget {
+  const _LiveBadge();
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 4),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.14),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: Colors.white.withValues(alpha: 0.2)),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Container(
+            width: 6,
+            height: 6,
+            decoration: const BoxDecoration(
+              color: AppColors.accentLime,
+              shape: BoxShape.circle,
+            ),
+          ),
+          const SizedBox(width: 4),
+          Text(
+            'Live',
+            style: AppTextStyles.captionWhite.copyWith(
+              color: Colors.white,
+              fontSize: 9,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
         ],
       ),
     );
@@ -135,17 +186,17 @@ class _NeuralVisual extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 78,
-      height: 78,
+      width: 66,
+      height: 66,
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.16),
-        borderRadius: BorderRadius.circular(18),
+        borderRadius: BorderRadius.circular(16),
         border: Border.all(color: Colors.white.withValues(alpha: 0.30)),
       ),
       child: Stack(
         alignment: Alignment.center,
         children: [
-          const Icon(Icons.hub_rounded, color: Colors.white, size: 40),
+          const Icon(Icons.hub_rounded, color: Colors.white, size: 34),
           const _CornerBracket(side: _BracketSide.topLeft),
           const _CornerBracket(side: _BracketSide.topRight),
           const _CornerBracket(side: _BracketSide.bottomLeft),

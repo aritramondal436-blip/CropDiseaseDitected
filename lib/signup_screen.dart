@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'app_colours.dart';
 import 'app_text_styles.dart';
 import 'homescreen.dart';
+import 'login_screen.dart';
 
 /// AgroVision sign-up page: a realistic crop-field backdrop with a soft blur,
 /// floating leaves and an AI disease-scanner motif behind a glassmorphism
@@ -19,9 +20,7 @@ class SignupScreen extends StatefulWidget {
 }
 
 class _SignupScreenState extends State<SignupScreen> {
-  static final RegExp _emailPattern = RegExp(
-    r'^[\w.+-]+@[\w-]+\.[\w.-]+$',
-  );
+  static final RegExp _emailPattern = RegExp(r'^[\w.+-]+@[\w-]+\.[\w.-]+$');
 
   final _formKey = GlobalKey<FormState>();
   final _nameController = TextEditingController();
@@ -184,9 +183,8 @@ class _SignupScreenState extends State<SignupScreen> {
                               const SizedBox(height: 12),
                               _TermsRow(
                                 value: _agreedToTerms,
-                                onChanged: (value) => setState(
-                                  () => _agreedToTerms = value,
-                                ),
+                                onChanged: (value) =>
+                                    setState(() => _agreedToTerms = value),
                                 onLinkTap: () => _showMessage(
                                   'Terms & Privacy Policy coming soon',
                                 ),
@@ -230,8 +228,12 @@ class _SignupScreenState extends State<SignupScreen> {
                                     ),
                                   ),
                                   GestureDetector(
-                                    onTap: () =>
-                                        _showMessage('Log in coming soon'),
+                                    onTap: () => Navigator.of(context)
+                                        .pushReplacement(
+                                          MaterialPageRoute<void>(
+                                            builder: (_) => const LoginScreen(),
+                                          ),
+                                        ),
                                     child: Text(
                                       'Log In',
                                       style: AppTextStyles.label.copyWith(
@@ -402,9 +404,7 @@ class _BottomHills extends StatelessWidget {
       right: 0,
       bottom: 0,
       height: 240,
-      child: IgnorePointer(
-        child: CustomPaint(painter: _HillsPainter()),
-      ),
+      child: IgnorePointer(child: CustomPaint(painter: _HillsPainter())),
     );
   }
 }
@@ -561,18 +561,19 @@ class _ScannerPainter extends CustomPainter {
     canvas.drawPath(
       leaf,
       Paint()
-        ..shader = const LinearGradient(
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-          colors: [AppColors.agroFresh, AppColors.agroPrimary],
-        ).createShader(
-          Rect.fromLTWH(
-            -halfWidth,
-            -halfLength,
-            halfWidth * 2,
-            halfLength * 2,
-          ),
-        ),
+        ..shader =
+            const LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [AppColors.agroFresh, AppColors.agroPrimary],
+            ).createShader(
+              Rect.fromLTWH(
+                -halfWidth,
+                -halfLength,
+                halfWidth * 2,
+                halfLength * 2,
+              ),
+            ),
     );
 
     // Veins.
@@ -1336,11 +1337,7 @@ class _SocialButton extends StatelessWidget {
         child: InkWell(
           onTap: onTap,
           customBorder: const CircleBorder(),
-          child: SizedBox(
-            width: 56,
-            height: 56,
-            child: Center(child: child),
-          ),
+          child: SizedBox(width: 56, height: 56, child: Center(child: child)),
         ),
       ),
     );

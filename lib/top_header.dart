@@ -3,34 +3,41 @@ import 'package:flutter/material.dart';
 import 'app_colours.dart';
 import 'app_text_styles.dart';
 
-/// Top header: AgroVision logo + app name + tagline on the left,
-/// notification bell (count badge) + profile avatar on the right.
+/// Top header: greeting + AgroVision brand on the left, notification bell
+/// with count badge and profile avatar on the right.
 class TopHeader extends StatelessWidget {
-  const TopHeader({super.key, this.notificationCount = 3});
+  const TopHeader({super.key, this.notificationCount = 3, this.onProfileTap});
 
   final int notificationCount;
+  final VoidCallback? onProfileTap;
+
+  String get _greeting {
+    final hour = DateTime.now().hour;
+    if (hour < 12) return 'Good morning';
+    if (hour < 17) return 'Good afternoon';
+    return 'Good evening';
+  }
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+      padding: const EdgeInsets.fromLTRB(20, 14, 20, 4),
       child: Row(
         children: [
-          // Logo
           Container(
-            width: 46,
-            height: 46,
+            width: 48,
+            height: 48,
             decoration: BoxDecoration(
               gradient: const LinearGradient(
                 colors: [AppColors.primary, AppColors.secondaryLight],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight,
               ),
-              borderRadius: BorderRadius.circular(14),
+              borderRadius: BorderRadius.circular(16),
               boxShadow: [
                 BoxShadow(
                   color: AppColors.primary.withValues(alpha: 0.25),
-                  blurRadius: 10,
+                  blurRadius: 12,
                   offset: const Offset(0, 4),
                 ),
               ],
@@ -38,35 +45,40 @@ class TopHeader extends StatelessWidget {
             child: const Icon(Icons.eco_rounded, color: Colors.white, size: 26),
           ),
           const SizedBox(width: 12),
-          // App name + tagline
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
               children: [
-                Text('AgroVision', style: AppTextStyles.title),
+                Text(_greeting, style: AppTextStyles.greeting),
+                const SizedBox(height: 1),
                 Text(
-                  'AI for Healthier Crops',
-                  style: AppTextStyles.caption,
+                  'AgroVision',
+                  style: AppTextStyles.title.copyWith(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w700,
+                  ),
+                  maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                 ),
               ],
             ),
           ),
-          // Notification icon with count badge
           _NotificationBell(count: notificationCount),
-          const SizedBox(width: 8),
-          // Profile avatar
+          const SizedBox(width: 10),
           GestureDetector(
-            onTap: () {
-              ScaffoldMessenger.of(context)
-                ..hideCurrentSnackBar()
-                ..showSnackBar(
-                  const SnackBar(content: Text('Profile coming soon')),
-                );
-            },
+            onTap:
+                onProfileTap ??
+                () {
+                  ScaffoldMessenger.of(context)
+                    ..hideCurrentSnackBar()
+                    ..showSnackBar(
+                      const SnackBar(content: Text('Profile coming soon')),
+                    );
+                },
             child: Container(
-              width: 42,
-              height: 42,
+              width: 44,
+              height: 44,
               decoration: BoxDecoration(
                 gradient: const LinearGradient(
                   colors: [AppColors.secondary, AppColors.lightGreen],
@@ -77,9 +89,9 @@ class TopHeader extends StatelessWidget {
                 border: Border.all(color: Colors.white, width: 2),
                 boxShadow: [
                   BoxShadow(
-                    color: AppColors.secondary.withValues(alpha: 0.3),
-                    blurRadius: 8,
-                    offset: const Offset(0, 2),
+                    color: AppColors.secondary.withValues(alpha: 0.28),
+                    blurRadius: 10,
+                    offset: const Offset(0, 3),
                   ),
                 ],
               ),
@@ -115,11 +127,12 @@ class _NotificationBell extends StatelessWidget {
               );
           },
           child: Container(
-            width: 42,
-            height: 42,
+            width: 44,
+            height: 44,
             decoration: BoxDecoration(
-              color: AppColors.mint,
+              color: AppColors.surface,
               shape: BoxShape.circle,
+              border: Border.all(color: AppColors.outline),
             ),
             child: const Icon(
               Icons.notifications_none_rounded,
@@ -131,7 +144,7 @@ class _NotificationBell extends StatelessWidget {
         if (count > 0)
           Positioned(
             top: -2,
-            right: -4,
+            right: -3,
             child: Container(
               constraints: const BoxConstraints(minWidth: 18, minHeight: 18),
               padding: const EdgeInsets.symmetric(horizontal: 4),

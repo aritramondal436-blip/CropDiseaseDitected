@@ -1,12 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:emergency_app/app.dart';
+import 'package:emergency_app/signup_screen.dart';
 import 'package:emergency_app/weather_service.dart';
 
 void main() {
-  testWidgets('Sign-up screen smoke test', (WidgetTester tester) async {
+  setUp(() {
+    SharedPreferences.setMockInitialValues({});
+  });
+
+  testWidgets('Login screen smoke test', (WidgetTester tester) async {
     await tester.pumpWidget(const AgroVisionApp());
+    await tester.pump();
+
+    expect(find.text('Welcome Back!'), findsOneWidget);
+    expect(find.text('Login to continue with Agrovision'), findsOneWidget);
+    expect(find.text('Email Address'), findsOneWidget);
+    expect(find.text('Password'), findsOneWidget);
+    expect(find.text('Login'), findsOneWidget);
+    expect(find.text('Remember Me'), findsOneWidget);
+    expect(find.text('Forgot Password?'), findsOneWidget);
+    expect(find.text('Continue with Google'), findsOneWidget);
+    expect(find.textContaining("Don't have an account?"), findsOneWidget);
+  });
+
+  testWidgets('Sign-up screen smoke test', (WidgetTester tester) async {
+    await tester.pumpWidget(const MaterialApp(home: SignupScreen()));
     await tester.pump();
 
     expect(find.text('AgroVision'), findsOneWidget);
@@ -21,7 +42,7 @@ void main() {
   testWidgets('Register with valid details opens the home page', (
     WidgetTester tester,
   ) async {
-    await tester.pumpWidget(const AgroVisionApp());
+    await tester.pumpWidget(const MaterialApp(home: SignupScreen()));
     await tester.pump();
 
     await tester.enterText(find.byType(TextFormField).at(0), 'Test Farmer');
@@ -44,17 +65,14 @@ void main() {
 
   group('WeatherData.fromJson', () {
     test('parses current weather payload', () {
-      final data = WeatherData.fromJson(
-        const {
-          'current': {
-            'temperature_2m': 32.0,
-            'relative_humidity_2m': 68,
-            'wind_speed_10m': 12.0,
-            'weather_code': 2,
-          },
+      final data = WeatherData.fromJson(const {
+        'current': {
+          'temperature_2m': 32.0,
+          'relative_humidity_2m': 68,
+          'wind_speed_10m': 12.0,
+          'weather_code': 2,
         },
-        city: 'Khastika',
-      );
+      }, city: 'Khastika');
 
       expect(data.city, 'Khastika');
       expect(data.tempC, 32);

@@ -93,6 +93,35 @@ class AppTextStyles {
     height: 1.2,
   );
 
+  // Dashboard helpers.
+  static TextStyle get greeting => GoogleFonts.poppins(
+    fontSize: 11,
+    fontWeight: FontWeight.w500,
+    color: AppColors.textMuted,
+    height: 1.2,
+  );
+
+  static TextStyle get microLabel => GoogleFonts.poppins(
+    fontSize: 10,
+    fontWeight: FontWeight.w600,
+    color: AppColors.textMuted,
+    letterSpacing: 0.2,
+  );
+
+  static TextStyle get cardTitle => GoogleFonts.poppins(
+    fontSize: 15,
+    fontWeight: FontWeight.w600,
+    color: AppColors.textDark,
+    height: 1.2,
+  );
+
+  static TextStyle get statValue => GoogleFonts.poppins(
+    fontSize: 16,
+    fontWeight: FontWeight.w700,
+    color: AppColors.textDark,
+    height: 1.2,
+  );
+
   // Registration redesign helpers.
 
   /// Bold dark-green heading used on the glass card.

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'app_colours.dart';
-import 'signup_screen.dart';
+import 'login_screen.dart';
 
 class AgroVisionApp extends StatelessWidget {
   const AgroVisionApp({super.key});
@@ -20,7 +20,7 @@ class AgroVisionApp extends StatelessWidget {
           backgroundColor: AppColors.primaryDark,
         ),
       ),
-      home: const SignupScreen(),
+      home: const LoginScreen(),
     );
   }
 }

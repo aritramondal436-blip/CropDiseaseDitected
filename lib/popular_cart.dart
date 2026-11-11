@@ -1,19 +1,22 @@
 import 'package:flutter/material.dart';
 
+import 'all_crops_page.dart';
 import 'app_colours.dart';
 import 'app_text_styles.dart';
+import 'crop_data.dart';
+import 'crop_details_page.dart';
 
 /// "Popular Crops" section with a View All action and a horizontal
-/// scrollable list of crop cards.
+/// scrollable list of crop cards. Tapping a crop opens its details page.
 class PopularCrops extends StatelessWidget {
   const PopularCrops({super.key});
 
-  static const List<_CropData> _crops = [
-    _CropData(name: 'Tomato', emoji: '🍅', bg: AppColors.cardGreen),
-    _CropData(name: 'Potato', emoji: '🥔', bg: AppColors.cardYellow),
-    _CropData(name: 'Corn', emoji: '🌽', bg: AppColors.cardLavender),
-    _CropData(name: 'Rice', emoji: '🌾', bg: AppColors.cardBlue),
-    _CropData(name: 'Wheat', emoji: '🌱', bg: AppColors.mint),
+  static const List<Color> _backgrounds = [
+    AppColors.cardGreen,
+    AppColors.cardYellow,
+    AppColors.cardLavender,
+    AppColors.cardBlue,
+    AppColors.mint,
   ];
 
   @override
@@ -37,16 +40,36 @@ class PopularCrops extends StatelessWidget {
               const SizedBox(width: 12),
               GestureDetector(
                 onTap: () {
-                  ScaffoldMessenger.of(context)
-                    ..hideCurrentSnackBar()
-                    ..showSnackBar(
-                      const SnackBar(content: Text('All crops coming soon')),
-                    );
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (_) => const AllCropsPage()),
+                  );
                 },
-                child: Text(
-                  'View All',
-                  style: AppTextStyles.label.copyWith(
-                    color: AppColors.secondary,
+                child: Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 10,
+                    vertical: 6,
+                  ),
+                  decoration: BoxDecoration(
+                    color: AppColors.mint,
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        'View All',
+                        style: AppTextStyles.label.copyWith(
+                          color: AppColors.primaryDark,
+                          fontSize: 11,
+                        ),
+                      ),
+                      const SizedBox(width: 3),
+                      const Icon(
+                        Icons.arrow_forward_rounded,
+                        color: AppColors.primaryDark,
+                        size: 13,
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -55,22 +78,25 @@ class PopularCrops extends StatelessWidget {
         ),
         const SizedBox(height: 12),
         SizedBox(
-          height: 108,
+          height: 134,
           child: ListView.separated(
             scrollDirection: Axis.horizontal,
             padding: const EdgeInsets.symmetric(horizontal: 20),
-            itemCount: _crops.length,
+            itemCount: cropCatalog.length,
             separatorBuilder: (_, _) => const SizedBox(width: 10),
             itemBuilder: (context, index) {
-              final crop = _crops[index];
+              final crop = cropCatalog[index];
               return _CropCard(
-                crop: crop,
+                name: crop.name,
+                emoji: crop.emoji,
+                diseaseCount: crop.diseases.length,
+                bg: _backgrounds[index % _backgrounds.length],
                 onTap: () {
-                  ScaffoldMessenger.of(context)
-                    ..hideCurrentSnackBar()
-                    ..showSnackBar(
-                      SnackBar(content: Text('${crop.name} scans coming soon')),
-                    );
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => CropDetailsPage(crop: crop),
+                    ),
+                  );
                 },
               );
             },
@@ -81,54 +107,69 @@ class PopularCrops extends StatelessWidget {
   }
 }
 
-class _CropData {
-  const _CropData({required this.name, required this.emoji, required this.bg});
+class _CropCard extends StatelessWidget {
+  const _CropCard({
+    required this.name,
+    required this.emoji,
+    required this.diseaseCount,
+    required this.bg,
+    required this.onTap,
+  });
 
   final String name;
   final String emoji;
+  final int diseaseCount;
   final Color bg;
-}
-
-class _CropCard extends StatelessWidget {
-  const _CropCard({required this.crop, required this.onTap});
-
-  final _CropData crop;
   final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        width: 96,
-        padding: const EdgeInsets.symmetric(vertical: 12),
-        decoration: BoxDecoration(
-          color: AppColors.cardWhite,
-          borderRadius: BorderRadius.circular(18),
-          border: Border.all(color: AppColors.divider),
-          boxShadow: [
-            BoxShadow(
-              color: AppColors.shadow,
-              blurRadius: 10,
-              offset: const Offset(0, 4),
+    return SizedBox(
+      width: 118,
+      child: Material(
+        color: AppColors.surface,
+        borderRadius: BorderRadius.circular(20),
+        child: InkWell(
+          onTap: onTap,
+          borderRadius: BorderRadius.circular(20),
+          child: Container(
+            padding: const EdgeInsets.all(12),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(20),
+              border: Border.all(color: AppColors.outline),
             ),
-          ],
-        ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Container(
-              width: 54,
-              height: 54,
-              decoration: BoxDecoration(
-                color: crop.bg,
-                borderRadius: BorderRadius.circular(16),
-              ),
-              alignment: Alignment.center,
-              child: Text(crop.emoji, style: const TextStyle(fontSize: 28)),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Container(
+                  width: 54,
+                  height: 54,
+                  decoration: BoxDecoration(
+                    color: bg,
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  alignment: Alignment.center,
+                  child: Text(emoji, style: const TextStyle(fontSize: 27)),
+                ),
+                const Spacer(),
+                Text(
+                  name,
+                  style: AppTextStyles.cardTitle.copyWith(fontSize: 13),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  diseaseCount == 0
+                      ? 'No records yet'
+                      : '$diseaseCount diseases',
+                  style: AppTextStyles.caption.copyWith(fontSize: 9.5),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ],
             ),
-            Text(crop.name, style: AppTextStyles.label),
-          ],
+          ),
         ),
       ),
     );

@@ -50,4 +50,12 @@ app.*.map.json
 # Local secrets
 .env
 .env.*
+!.env.example
+!**/.env.example
 *.env.json
+firebase_credentials.json
+**/firebase_credentials.json
+backend/.venv/
+**/__pycache__/
+*.pyc
+

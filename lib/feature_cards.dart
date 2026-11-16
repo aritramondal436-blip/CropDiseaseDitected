@@ -6,7 +6,9 @@ import 'app_text_styles.dart';
 /// Dashboard shortcut tiles: a prominent Scan Leaf card, two compact
 /// cards for My Reports and Disease Map, and a wide Expert Help card.
 class FeatureCards extends StatelessWidget {
-  const FeatureCards({super.key});
+  const FeatureCards({super.key, this.onScanTap});
+
+  final VoidCallback? onScanTap;
 
   static const List<_FeatureData> _features = [
     _FeatureData(
@@ -54,7 +56,7 @@ class FeatureCards extends StatelessWidget {
         children: [
           _PrimaryFeatureCard(
             data: _features[0],
-            onTap: () => _onFeatureTap(context, _features[0].title),
+            onTap: onScanTap ?? () => _onFeatureTap(context, _features[0].title),
           ),
           const SizedBox(height: 12),
           Row(

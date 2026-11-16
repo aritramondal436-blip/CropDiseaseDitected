@@ -7,9 +7,15 @@ import 'weather_widget.dart';
 /// Hero / welcome section: green gradient panel with the welcome headline
 /// and "Scan Leaf" call to action plus the live weather panel.
 class HeroSection extends StatelessWidget {
-  const HeroSection({super.key});
+  const HeroSection({super.key, this.onScanTap});
+
+  final VoidCallback? onScanTap;
 
   void _onScanTap(BuildContext context) {
+    if (onScanTap != null) {
+      onScanTap!();
+      return;
+    }
     ScaffoldMessenger.of(context)
       ..hideCurrentSnackBar()
       ..showSnackBar(const SnackBar(content: Text('Opening leaf scanner…')));

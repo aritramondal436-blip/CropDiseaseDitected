@@ -7,6 +7,7 @@ import 'feature_cards.dart';
 import 'hero_section.dart';
 import 'popular_cart.dart';
 import 'profile_screen.dart';
+import 'scan_page.dart';
 import 'top_header.dart';
 
 /// Main AgroVision home page composed of scrollable sections
@@ -38,9 +39,9 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void _onScanTap() {
-    ScaffoldMessenger.of(context)
-      ..hideCurrentSnackBar()
-      ..showSnackBar(const SnackBar(content: Text('Opening leaf scanner…')));
+    Navigator.of(context).push(
+      MaterialPageRoute(builder: (_) => const ScanPage()),
+    );
   }
 
   @override
@@ -74,9 +75,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                       setState(() => _selectedIndex = 3),
                                 ),
                                 const SizedBox(height: 12),
-                                const HeroSection(),
+                                HeroSection(onScanTap: _onScanTap),
                                 const SizedBox(height: 22),
-                                const FeatureCards(),
+                                FeatureCards(onScanTap: _onScanTap),
                                 const SizedBox(height: 22),
                                 const AIInsights(),
                                 const SizedBox(height: 22),

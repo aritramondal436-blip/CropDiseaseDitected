@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'app_colours.dart';
 import 'app_text_styles.dart';
 import 'crop_data.dart';
+import 'scan_page.dart';
 
 /// Full-screen details for a crop: basic growing information, its common
 /// diseases with symptoms/identification and prevention/treatment guidance,
@@ -566,11 +567,9 @@ class _ScanCta extends StatelessWidget {
   final CropInfo crop;
 
   void _onTap(BuildContext context) {
-    ScaffoldMessenger.of(context)
-      ..hideCurrentSnackBar()
-      ..showSnackBar(
-        SnackBar(content: Text('Opening ${crop.name} leaf scanner…')),
-      );
+    Navigator.of(context).push(
+      MaterialPageRoute(builder: (_) => ScanPage(cropName: crop.name)),
+    );
   }
 
   @override
